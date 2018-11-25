@@ -1,10 +1,220 @@
-<html>
-	<head></head>
-	<body>
-		<h1> Welcome to my site! </h1>
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Emma Juettner's Portfolio</title>
+		<link rel="stylesheet" href="styles.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"/> <!--fonts-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> <!--icons-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</head>
 	
-		<h3> By Emma Juettner </h3>
+	<body data-spy="scroll" data-target="#navbar_top" data-offset="0">
+	<a id="about">
+	<!--top nav bar-->
+		<nav id="navbar_top" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+		  <a class="navbar-brand" href="#">Emma Juettner</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item">
+				<a class="nav-link" href="#about">About</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#projects">Projects</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#experience">Experience</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#contact">Contact</a>
+			  </li>
+			</ul>
+		  </div>
+		</nav> 
+	
+		<!--Introductory jumbotron-->
 		
-		<p> testing testing testing </p>
+		
+		<div class="about_me">
+			<div class="jumbotron">
+			  <h1 class="display-4">Hello, world!</h1>
+			  <p class="lead">I'm a math and computer science major completing my junior year at Lake Forest College. 
+				I'm currently looking for software development internships for summer 2019.
+				Below, you can find some of my qualifications and projects I've worked on.</p>
+			  <a class="btn btn-primary btn-lg" href="#contact" role="button">Contact Me</a>
+			  <a class="btn btn-outline-primary btn-lg" href="EmmaJuettnerCV.pdf" role="button" style="margin-left: 10px;">Resume</a>
+			</div>
+		</div>
+	
+		<!-- Container for the image gallery -->
+		<div class="project_bg">
+		<div class="project_gallery" id="projects">
+		<h1 class="section_header">Projects</h1>
+		<div class="card-columns">
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="images/tracery.jpg" alt="Screencap of Tracery editor">
+			  <div class="card-body">
+				<h5 class="card-title">CS Club Tutorials</h5>
+				<p class="card-text">Basic tutorials written to help beginner coders complete a project in one hour. Previous tutorial projects include Twitter bots and Twine games.</p>
+				</br>
+				<a href="https://github.com/emmajuettner/lfc_cs_club_tutorials" class="btn btn-primary">More details</a>
+			  </div>
+			</div>
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="images/circle_shooters.jpg" alt="Circle Shooter cover image">
+			  <div class="card-body">
+				<h5 class="card-title">Arcade Game</h5>
+				<p class="card-text">A one- or two-player shooter game made in Java, which was part of an arcade machine that CS Club built and programmed from scratch.</p>
+				</br>
+				<a href="https://github.com/emmajuettner/arcade_machine" class="btn btn-primary">More details</a>
+			  </div>
+			</div>
+			<div class="card" style="width: 18rem;">
+			  <!--<img class="card-img-top" src=".../100px180/" alt="Card image cap">-->
+			  <div class="card-body">
+				<h5 class="card-title">Richter Scholar Project</h5>
+				<p class="card-text">Summer research project using Python to analyze a large data set of news stories
+				to discover relationships between news sentiment and stock prices.</p>
+				</br>
+				<a href="#" class="btn btn-primary">More details coming soon</a>
+			  </div>
+			</div>
+			<div class="card" style="width: 18rem;">
+			  <!--<img class="card-img-top" src=".../100px180/" alt="Card image cap">-->
+			  <div class="card-body">
+				<h5 class="card-title">Video Store Database Website</h5>
+				<p class="card-text">A website for a fictional video store, built as a group project for a class on database systems.</p>
+				</br>
+				<a href="#" class="btn btn-primary">More details coming soon</a>
+			  </div>
+			</div>
+		</div>
+		</div>
+		</div>
+		
+		
+		<!-- Experience section -->
+		<div class="experience_bg">
+		<div class="experience_skills" id="experience">
+		
+		<div class="row">
+			<div class="col skills">
+			
+				<h1 class="section_header">Education</h1>	
+				<ul class="timeline" style="list-style-type: none;">
+					<li>
+						<h4>B.A. in Mathematics & Computer Science</h4>
+						<h5>Lake Forest College, Lake Forest, IL</h5>
+						<h6>GPA: 3.78/4.00</h6>
+						<p>Math & CS Major, Spanish Minor</p>
+						<p>Extracurricular Involvement:</p>
+						<ul>
+							<li>Computer Science Club - Vice President of Resource Management</li>
+							<li>Math & Computer Science Student Advisory Board</li>
+							<li>Phi Sigma Iota Foreign Language Honor Society</li>
+						</ul>
+					</li>
+					<li>
+						<h4>High School</h4>
+						<h5>Nicolet High School, Glendale, WI</h5>
+						<h6>GPA: 4.65/5.00</h6>
+						<p>National Merit Scholar</p>
+					</li>
+				</ul>
+				
+				
+			</div>
+			
+			<div class="col timeline_container">
+			<h1 class="section_header">Work Experience</h1>
+				<ul class="timeline" style="list-style-type: none;">
+					<li>
+						<h4>IT Help Desk Worker</h4>
+						<h5>Lake Forest College, Lake Forest, IL</h5>
+						<h6>February 2018 - Present</h6>
+						<p>Performed basic tech support and computer repair tasks.</p>
+					</li>
+					<li>
+						<h4>Freelance Transcriptionist</h4>
+						<h5>Rev.com</h5>
+						<h6>June 2017 - Present</h6>
+						<p>Transcribed audio and captioned video.</p>
+					</li>
+					<li>
+						<h4>Math/Computer Science Department Tutor</h4>
+						<h5>Lake Forest College, Lake Forest, IL</h5>
+						<h6>January 2017 - May 2017</h6>
+						<p>Assisted with CSCI 112: Introduction to Python course, tutored students and graded assignments.</p>
+					</li>
+					
+				</ul>
+			
+			</div>
+		</div>
+		</div>
+		
+		<div class="skills">
+		<h1 class="section_header">Skills</h1>
+			<div class="card-deck">
+				<div class="card">
+				<div class="card-header">Technical Skills</div>
+				<h5 class="skills-card">
+				<span class="badge badge-info">Python</span>
+				<span class="badge badge-info">Java</span>
+				<span class="badge badge-info">HTML & CSS</span>
+				<span class="badge badge-info">Bootstrap</span>
+				<span class="badge badge-info">PHP</span>
+				<span class="badge badge-info">SQL</span>
+				<span class="badge badge-info">Git</span>
+				<span class="badge badge-info">Microsoft Office</span>
+				<span class="badge badge-info">Adobe Illustrator</span>
+				<span class="badge badge-info">Adobe Photoshop</span>
+				</h5>
+				</div>
+				
+				<div class="card">
+				<div class="card-header">Languages</div>
+				<h5 class="skills-card">
+				<span class="badge badge-info">English (native speaker)</span>
+				<span class="badge badge-info">Spanish (advanced proficiency)</span>
+				</h5>
+				</div>
+
+				<div class="card">
+				<div class="card-header">Soft Skills</div>
+				<h5 class="skills-card">
+				<span class="badge badge-info">Teamwork</span>
+				<span class="badge badge-info">Problem Solving</span>
+				<span class="badge badge-info">Quick Learner</span>
+				</h5>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="contact_bg">
+		<div class="contact_info" id="contact">
+		
+		<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+		<h1 class="section_header">Contact</h1>
+		  <p class="lead">Interested in hiring me or collaborating on a project?</br>Get in touch!</p>
+		  <div class="social_media_links">
+			<a href="mailto:juettnerek@lfc.edu" type="button" class="btn btn-outline-info">Email</a>
+			<a href="http://www.linkedin.com/in/emma-juettner-08897211a" type="button" class="btn btn-outline-info">LinkedIn</a>
+			<a href="https://github.com/emmajuettner" type="button" class="btn btn-outline-info">Github</a>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
 	</body>
 </html>
