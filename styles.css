@@ -1,15 +1,39 @@
 /*Main styles*/
+:root {
+  --accent-color: #EA4E4E;
+  --dark: #9FACBD;
+  --light: #EDC8B8;
+  --off-white: white;
+}
+
 
 body {
-    background-color: #466A95;
-	font-family: 'PT Sans', sans-serif;
+    background-color: var(--accent-color);
+	font-family: "Libre Franklin", sans-serif;
 	margin: 0px;
 	position: relative;
 	width: 100%;
 }
 h1 {
 	text-align: center;
-    color: blue;
+}
+.p {
+	font-family: "Arvo", sans-serif;
+}
+
+.btn {
+	background-color: var(--accent-color) !important;
+	border-color: var(--accent-color) !important;
+	color: var(--off-white);
+}
+
+.btn:hover {
+	background-color: var(--off-white) !important;
+	color: var(--accent-color) !important;
+}
+
+.badge {
+	background-color: var(--accent-color);
 }
 
 .section_header {
@@ -17,16 +41,26 @@ h1 {
 	margin-bottom: 20px;
 }
 
+.navbar-custom {
+	background-color: var(--accent-color) !important;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	color: var(--off-white) !important;
+}
+
 /*About Me*/
 .about_me {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
-	background-color: #466A95;
+	background-color: var(--dark);
 }
 
 .jumbotron {
 	width: 40%;
 	margin: 0 auto;
+	background-color: var(--off-white) !important;
 }
 
 .jumbotron-buttons {
@@ -44,19 +78,22 @@ h1 {
 
 /*Project Image Cards*/
 .project_bg {
-	background-color: #AFBCCD;
+	background-color: var(--dark);
+	color: var(--off-white);
 }
 
 .project_gallery {
 	width: 80%;
 	margin: 0 auto;
 	padding-top: 60px;
-	background-color: #AFBCCD;
+	background-color: var(--dark);
 	padding-bottom: 1rem;
 }
 
 .card {
 	display: inline-block;
+	color: black;
+	border-color: var(--dark);
 }
 
 .skills-card {
@@ -76,22 +113,23 @@ h1 {
 
 /*Timeline*/
 .experience_bg {
-	background-color: #466A95;
+	background-color: var(--dark);
 }
 
 .experience_skills {
 	padding-top: 60px;
-	background-color: #466A95;
+	background-color: var(--dark);
 	width: 80%;
 	margin: 0 auto;
-	color: white;
+	color: var(--off-white);
 }
 
 .skills {
 	margin: 0 auto;
 	width: 80%;
-	color: white;
-	background-color: #466A95;
+	color: var(--off-white);
+	background-color: var(--dark);
+	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
 
@@ -113,12 +151,13 @@ ul.timeline {
 
 li > h4 {
 	font-weight: bold;
+	
 }
 
 /*timeline vertical line*/
 ul.timeline:before {
     content: ' ';
-    background: white;
+    background: var(--off-white);
     display: inline-block;
     position: absolute;
     left: 26px;
@@ -135,11 +174,11 @@ ul.timeline > li {
 /*timeline dots*/
 ul.timeline > li:before {
     content: ' ';
-    background: white;
+    background: var(--off-white);
     display: inline-block;
     position: absolute;
     border-radius: 100%;
-    border: 3px solid white;
+    border: 3px solid var(--off-white);
     left: 18px;
     width: 18px;
     height: 18px;
@@ -147,12 +186,12 @@ ul.timeline > li:before {
 
 /*Contact Info*/
 .contact_bg {
-	background-color: #748FB0;
+	background-color: var(--dark);
 }
 
 .contact_info {
 	padding-top: 60px;
-	background-color: #748FB0;
+	background-color: var(--dark);
 	width: 80%;
 	margin: 0 auto;
 	padding-bottom: 2rem;
@@ -161,9 +200,12 @@ ul.timeline > li:before {
 .jumbotron-fluid {
 	margin: 0 auto;
 	width: 90%;
+	background-color: var(--off-white) !important;
+	border-radius: 10px;
 }
 
 .container {
 	margin: 0 auto;
 	text-align: center;
+	background-color: var(--off-white);
 }
