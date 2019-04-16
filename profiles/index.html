@@ -39,5 +39,16 @@
 		   }(document, 'script', 'facebook-jssdk'));
 		</script>
 	
+	
+		<!--Check login status-->
+		<script>
+					
+		FB.getLoginStatus(function(response) {
+			statusChangeCallback(response);
+		});
+		</script>
+		
+		<!--login button-->
+		<div class="fb-login-button" data-size="large" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="true"></div>
 	</body>
 </html>
