@@ -1,4 +1,4 @@
-/* @pjs preload="moving_face/1.jpg","moving_face/2.jpg","moving_face/3.jpg","moving_face/4.jpg","moving_face/5.jpg","moving_face/6.jpg","moving_face/7.jpg","moving_face/8.jpg","moving_face/9.jpg","moving_face/10.jpg","moving_face/11.jpg","moving_face/12.jpg","moving_face/13.jpg","moving_face/14.jpg","moving_face/15.jpg","moving_face/16.jpg","moving_face/17.jpg","moving_face/18.jpg","moving_face/19.jpg","moving_face/20.jpg"; */
+/* @pjs preload="http://emmajuettner.github.io/profiles/1.jpg, http://emmajuettner.github.io/profiles/2.jpg, http://emmajuettner.github.io/profiles/3.jpg, http://emmajuettner.github.io/profiles/4.jpg, http://emmajuettner.github.io/profiles/5.jpg, http://emmajuettner.github.io/profiles/6.jpg, http://emmajuettner.github.io/profiles/7.jpg, http://emmajuettner.github.io/profiles/8.jpg, http://emmajuettner.github.io/profiles/9.jpg, http://emmajuettner.github.io/profiles/10.jpg, http://emmajuettner.github.io/profiles/11.jpg, http://emmajuettner.github.io/profiles/12.jpg, http://emmajuettner.github.io/profiles/13.jpg, http://emmajuettner.github.io/profiles/14.jpg, http://emmajuettner.github.io/profiles/15.jpg, http://emmajuettner.github.io/profiles/16.jpg, http://emmajuettner.github.io/profiles/17.jpg, http://emmajuettner.github.io/profiles/18.jpg, http://emmajuettner.github.io/profiles/19.jpg, http://emmajuettner.github.io/profiles/20.jpg, http://emmajuettner.github.io/profiles/output_list_copy.txt"; font="http://emmajuettner.github.io/profiles/BookmanOldStyle-48.vlw";*/
 
 PFont font;
 String[] lines;
@@ -32,10 +32,10 @@ void setup() {
   frameRate(2);
   size(1000,1000);
   background(255);
-  lines = loadStrings("C:\\Users\\emmaj\\OneDrive\\School\\Lake Forest\\Junior Year\\ART 244 Digital Art\\Data Visualization\\output_list_copy.txt");
+  lines = loadStrings("output_list_copy.txt");
   font = loadFont("BookmanOldStyle-48.vlw");
   
-  photo = loadImage("moving_face/1.jpg");
+  photo = loadImage("1.jpg");
   photo.resize(int(photo.width/3.5),int(photo.height/3.5));
   pg = createGraphics(photo.width,photo.height);
   println(photo.width, photo.height);
@@ -103,7 +103,7 @@ void draw() {
   
   //update profile pic
   if(timecount%6==0 && timecount!=0 && timecount<6*20){
-    photo = loadImage("moving_face/"+(timecount/6+1)+".jpg");
+    photo = loadImage(""+(timecount/6+1)+".jpg");
     photo.resize(int(photo.width/3.5),int(photo.height/3.5));
     photo.mask(maskImage);
     tint(255,50);
