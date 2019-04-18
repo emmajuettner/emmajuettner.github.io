@@ -1,4 +1,4 @@
-/* @pjs preload="1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg, 6.jpg, 7.jpg, 8.jpg, 9.jpg, 10.jpg, 11.jpg, 12.jpg, 13.jpg, 14.jpg, 15.jpg, 16.jpg, 17.jpg, 18.jpg, 19.jpg, 20.jpg, output_list_copy.txt"; font="BookmanOldStyle-48.vlw";*/
+/* @pjs preload="moving_face/1.jpg","moving_face/2.jpg","moving_face/3.jpg","moving_face/4.jpg","moving_face/5.jpg","moving_face/6.jpg","moving_face/7.jpg","moving_face/8.jpg","moving_face/9.jpg","moving_face/10.jpg","moving_face/11.jpg","moving_face/12.jpg","moving_face/13.jpg","moving_face/14.jpg","moving_face/15.jpg","moving_face/16.jpg","moving_face/17.jpg","moving_face/18.jpg","moving_face/19.jpg","moving_face/20.jpg"; */
 
 PFont font;
 String[] lines;
@@ -32,10 +32,10 @@ void setup() {
   frameRate(2);
   size(1000,1000);
   background(255);
-  lines = loadStrings("output_list_copy.txt");
+  lines = loadStrings("C:\\Users\\emmaj\\OneDrive\\School\\Lake Forest\\Junior Year\\ART 244 Digital Art\\Data Visualization\\output_list_copy.txt");
   font = loadFont("BookmanOldStyle-48.vlw");
   
-  photo = loadImage("1.jpg");
+  photo = loadImage("moving_face/1.jpg");
   photo.resize(int(photo.width/3.5),int(photo.height/3.5));
   pg = createGraphics(photo.width,photo.height);
   println(photo.width, photo.height);
@@ -103,7 +103,7 @@ void draw() {
   
   //update profile pic
   if(timecount%6==0 && timecount!=0 && timecount<6*20){
-    photo = loadImage(""+(timecount/6+1)+".jpg");
+    photo = loadImage("moving_face/"+(timecount/6+1)+".jpg");
     photo.resize(int(photo.width/3.5),int(photo.height/3.5));
     photo.mask(maskImage);
     tint(255,50);

@@ -1,0 +1,1895 @@
+"@MrTeller" 1
+"baked" 1
+"bowl" 1
+"@POTUS" 1
+"@JanelleMonae" 1
+"@Beyonce" 1
+"@RuPaul" 1
+"#graphicdesign" 1
+"@GRRMspeaking" 1
+"@StephenKing" 1
+"professors" 1
+"educators" 1
+"@parenting" 1
+"@ResourcefulMom" 1
+"Nissan - Rogue" 1
+"The Washington Post" 1
+"Huffington Post" 1
+"GNI - Base - 2. EO" 1
+"GNI - Swing - 3. UB" 1
+"GNI - Swing - 4. OSS" 1
+"GNI - Base - 1. YA" 1
+"@bbcdoctorwho" 1
+"@AgentsofSHIELD" 1
+"#HarryPotter" 1
+"#OnceUponATime" 1
+"#TheWalkingDead" 1
+"#GOT" 1
+"#GameOfThrones" 1
+"#blackhistorymonth" 1
+"Blockchain" 1
+"Garmin" 1
+"hungry" 1
+"grateful dead" 1
+"university" 1
+"Please Please Me" 1
+"December" 1
+"#barbecues" 1
+"barbecue" 1
+"#passports" 1
+"airline" 1
+"#passport" 1
+"February" 1
+"passport" 1
+"barbecues" 1
+"#barbecue" 1
+"passports" 1
+"jacket" 1
+"airlines" 1
+"lebron" 1
+"#lebron" 1
+"@KeyAndPeele" 1
+"#SNL" 1
+"SNL" 1
+"@food" 1
+"Console" 1
+"Marvel movies" 1
+"Superheroes" 1
+"#GuardiansoftheGalaxy" 1
+"Playstation" 1
+"hersheys" 1
+"#Playstation" 1
+"Superhero" 1
+"#superhero" 1
+"#oreos" 1
+"#consoles" 1
+"#superheroes" 1
+"#hersheys" 1
+"oreos" 1
+"@Burberry" 1
+"@eentertainment" 1
+"films" 1
+"Yesterday" 1
+"fashion" 1
+"style" 1
+"Vogue" 1
+"#entertaining" 1
+"crafts" 1
+"entertaining" 1
+"#crafts" 1
+"Energy" 1
+"#Energy" 1
+"@RealTracyMorgan" 1
+"@hannibalburess" 1
+"@Sethrogen" 1
+"@iJesseWilliams" 1
+"@terrycrews" 1
+"@neiltyson" 1
+"@Diddy" 1
+"Snapchat" 1
+"CW" 1
+"kid" 1
+"gamer's" 1
+"Eating" 1
+"surgery" 1
+"holidays" 1
+"math teachers" 1
+"Hamburgers" 1
+"Olive Garden" 1
+"IHOP" 1
+"French Fries" 1
+"@adamlevine" 1
+"@kelly_clarkson" 1
+"streaming" 1
+"Desserts and baking" 1
+"magic" 1
+"treats" 1
+"princess" 1
+"snacking" 1
+"magical" 1
+"treat" 1
+"cookies" 1
+"snacks" 1
+"Dodge - Ram" 1
+"sports" 1
+"@PEOPLEPets" 1
+"#chocolatecoveredstrawberries" 1
+"@janetmock" 1
+"it gets better" 1
+"he for she" 1
+"book" 1
+"@spolsky" 1
+"born this way" 1
+"Coffee" 1
+"Car Rental/Sharing" 1
+"Transportation" 1
+"commuting" 1
+"bus" 1
+"video game" 1
+"#Latino" 1
+"@RazorbackFB" 1
+"@kobebryant" 1
+"Live: NBA Basketball" 1
+"Video Game" 1
+"#dessert" 1
+"desserts" 1
+"#cocoa" 1
+"cocoa" 1
+"#desserts" 1
+"dessert" 1
+"cans" 1
+"Economics" 1
+"Entrepreneurship" 1
+"Graphic designer" 1
+"mobile app" 1
+"WIX" 1
+"saving up" 1
+"#Financing" 1
+"financial" 1
+"#savings" 1
+"saving" 1
+"#saving" 1
+"Financing" 1
+"#bankaccount" 1
+"#financial" 1
+"savings" 1
+"#Bud" 1
+"@justiceleaguewb" 1
+"@NASA" 1
+"NASA" 1
+"@broadcity" 1
+"Jolly Rancher" 1
+"@justinbieber" 1
+"Parks and Recreation" 1
+"Joel McHale" 1
+"#harvest2018" 1
+"@TheDisInsider" 1
+"vacations" 1
+"fishin" 1
+"fishing" 1
+"THE BALLAD OF BUSTER SCRUGGS" 1
+"Can You Ever Forgive Me?" 1
+"Oscars" 1
+"Oscar" 1
+"Cigarette" 1
+"Cigarettes" 1
+"higher education" 1
+"jackpot" 1
+"#gamble" 1
+"#gambling" 1
+"gambling" 1
+"gamble" 1
+"#carryon" 1
+"Spider-Man" 1
+"gossip" 1
+"#roma" 1
+"disney" 1
+"snowstorm" 1
+"#foodies" 1
+"restaurant" 1
+"cap" 1
+"foodies" 1
+"developers" 1
+"dev" 1
+"developer" 1
+".net" 1
+"dev's" 1
+"diversity" 1
+"payment" 1
+"@SenSanders" 1
+"#naacp" 1
+"Hip-Hop/Rap" 1
+"The Voice" 1
+"Trade" 1
+"@TheRealStanLee" 1
+"@Daredevil" 1
+"@Marvel" 1
+"@Avengers" 1
+"@JessicaJones" 1
+"Cyclops" 1
+"Nebula" 1
+"Falcon" 1
+"#Falcon" 1
+"Storm" 1
+"#Storm" 1
+"Iron Man" 1
+"Daredevil" 1
+"Jessica Jones" 1
+"#Nebula" 1
+"#Cyclops" 1
+"Iron Fist" 1
+"#Daredevil" 1
+"Hulu" 1
+"fashion week" 1
+"The Walking Dead" 1
+"Marvel's Agent Carter" 1
+"grey's anatomy" 1
+"thewalkingdead" 1
+"#castle" 1
+"#thewalkingdead" 1
+"thursday" 1
+"Access" 1
+"Meditation" 1
+"Spas" 1
+"Massage" 1
+"Healthy food" 1
+"Spirituality" 1
+"Surface" 1
+"Publisher" 1
+"Rare diseases" 1
+"Rare disease" 1
+"@missmorenab" 1
+"#billions" 1
+"billions" 1
+"Novels" 1
+"@DIRECTV" 1
+"loreal" 1
+"almay" 1
+"#loreal" 1
+"palettes" 1
+"#almay" 1
+"-Kneel" 1
+"-Disrespectful" 1
+"netflix" 1
+"@TODAYshow" 1
+"sunday brunch" 1
+"@nytimestravel" 1
+"@KarlLagerfeld" 1
+"@seriouseats" 1
+"Fast food" 1
+"American Cuisine" 1
+"Ag" 1
+"Farming" 1
+"Agriculture" 1
+"#chicken" 1
+"#ag" 1
+"2019 Game Developers Conference" 1
+"meow" 1
+"@LukeBryanOnline" 1
+"physical fitness" 1
+"Health & Wellness" 1
+"fitness and wellness" 1
+"Landing Page Visitors " 1
+"@GMA" 1
+"Australia" 1
+"wildlife" 1
+"camping" 1
+"highered" 1
+"Kidding" 1
+"#finances" 1
+"#hr" 1
+"hr" 1
+"#workforce" 1
+"@Twitter" 1
+"Intel" 1
+"#trading" 1
+"#Intel" 1
+"trader" 1
+"#Adobe" 1
+"#investor" 1
+"IBM" 1
+"#UBER" 1
+"trading" 1
+"Adobe" 1
+"UBER" 1
+"#trader" 1
+"Twitter" 1
+"#Twitter" 1
+"#IBM" 1
+"investor" 1
+"Dinner" 1
+"parties" 1
+"Lunch" 1
+"Beer" 1
+"Drinking" 1
+"Cuisine" 1
+"@postpolitics" 1
+"Planned Parenthood" 1
+"#humanrights" 1
+"#blacklivesmatter" 1
+"rita ora" 1
+"#metoo" 1
+"#socialjustice" 1
+"adobe" 1
+"news media" 1
+"PGA Tour Golf" 1
+"PGA TOUR" 1
+"@MacKidsBooks" 1
+"Education Related" 1
+"luxury" 1
+"retirement" 1
+"Repair" 1
+"Hair Care" 1
+"@parentsmagazine" 1
+"Canon" 1
+"make up" 1
+"beauty" 1
+"#beauty" 1
+"Twitter_BlockList" 1
+"Hep Awareness Month Block List" 1
+"quit smoking" 1
+"@womenshealth" 1
+"#gaming" 1
+"#developer" 1
+"@GloriaSteinem" 1
+"@jk_rowling" 1
+"@UN_Women" 1
+"International Women's Day 2019" 1
+"BMW" 1
+"#mentalillness" 1
+"farm" 1
+"@AndroidDev" 1
+"@pattonoswalt" 1
+"teacher" 1
+"teachers" 1
+"@gamasutra" 1
+"@Caradelevingne" 1
+"@captainmarvel" 1
+"@HISTORY" 1
+"@NPR" 1
+"@USATODAY" 1
+"@maddow" 1
+"@MSNBC" 1
+"DLX_Nestle_Waters_IceMountain_SparklingWaterBuyers_E.205374" 1
+"donation" 1
+"fundraiser" 1
+"#donation" 1
+"#fundraiser" 1
+"donations" 1
+"infosec" 1
+"#hackers" 1
+"#infosec" 1
+"#cybersecurity" 1
+"hacking" 1
+"#databreach" 1
+"Alcohol" 1
+"Patron" 1
+"chardonnay" 1
+"wine" 1
+"#TopChef" 1
+"#caregiver" 1
+"SXSW Festival 2019" 1
+"Brie Larson" 1
+"Captain Marvel Movie Premiere" 1
+"#jeep" 1
+"jeep" 1
+"#4x4" 1
+"#pyramid" 1
+"pyramid" 1
+"#vmware" 1
+"vmware" 1
+"US - Employment title: owner" 1
+"US - Fewer than 10 employees" 1
+"US - 10-49 employees" 1
+"US - Employment title: professional / medical" 1
+"US - 100-499 employees" 1
+"US - 50-99 employees" 1
+"@Ibra_official" 1
+"@MarcusRashford" 1
+"@WayneRooney" 1
+"@anto_v25" 1
+"@juanmata8" 1
+"@D_DeGea" 1
+"@youngy18" 1
+"@JesseLingard" 1
+"@bts_twt" 1
+"Kesha" 1
+"menswear" 1
+"The Good Place" 1
+"@CNNPolitics" 1
+"@PPFA" 1
+"Install AT&T THANKS® IOS All" 1
+"App open AT&T THANKS® IOS All" 1
+"Install AT&T THANKS® ANDROID All" 1
+"App open AT&T THANKS® ANDROID All" 1
+"INSTALL-1251584149-IOS:30DAY" 1
+"RE_ENGAGE-1251584149-IOS" 1
+"INSTALL-1251584149-IOS:7DAY" 1
+"INSTALL-1251584149-IOS:14DAY" 1
+"INSTALL-1251584149-IOS" 1
+"INSTALL-1251584149-IOS:1DAY" 1
+"RE_ENGAGE-com.att.thanks-ANDROID:14DAY" 1
+"RE_ENGAGE-com.att.thanks-ANDROID:30DAY" 1
+"RE_ENGAGE-com.att.thanks-ANDROID:1DAY" 1
+"RE_ENGAGE-com.att.thanks-ANDROID:7DAY" 1
+"INSTALL-com.att.thanks-ANDROID:30DAY" 1
+"RE_ENGAGE-com.att.thanks-ANDROID" 1
+"INSTALL-com.att.thanks-ANDROID:7DAY" 1
+"INSTALL-com.att.thanks-ANDROID:14DAY" 1
+"INSTALL-com.att.thanks-ANDROID" 1
+"INSTALL-com.att.thanks-ANDROID:1DAY" 1
+"RE_ENGAGE-1251584149-IOS:14DAY" 1
+"RE_ENGAGE-1251584149-IOS:30DAY" 1
+"RE_ENGAGE-1251584149-IOS:1DAY" 1
+"RE_ENGAGE-1251584149-IOS:7DAY" 1
+"Refinery29" 1
+"professional gamer" 1
+"Scrabble" 1
+"@thinkgeek" 1
+"@AskPlayStation" 1
+"@giantbomb" 1
+"@XboxP3" 1
+"@sonic_hedgehog" 1
+"cat's" 1
+"going to the vet" 1
+"@CAPDisability" 1
+"Christmas 2018" 1
+"furniture" 1
+"Papa Murphy's" 1
+"drinks" 1
+"drinking" 1
+"#coffee" 1
+"iced coffee" 1
+"#latte" 1
+"iced coffees" 1
+"tim hortons" 1
+"#drinks" 1
+"#Starbucks" 1
+"lattes" 1
+"wake up" 1
+"iced" 1
+"coffees" 1
+"starbuck" 1
+"Starbucks" 1
+"latte" 1
+"#coffees" 1
+"#drinking" 1
+"#tea" 1
+"Tea" 1
+"Dunkin Donuts" 1
+"#brewer" 1
+"coffee's" 1
+"brewer" 1
+"café" 1
+"#timhortons" 1
+"#starbuck" 1
+"#drink" 1
+"@sciam" 1
+"pc" 1
+"#Superbowl" 1
+"#Gaming" 1
+"#gamespot" 1
+"#IGN" 1
+"Gaming" 1
+"#Koffing" 1
+"#Gamers" 1
+"#ps4" 1
+"#Consoles" 1
+"#Gamer" 1
+"Professional Gamer" 1
+"indie games" 1
+"#PC" 1
+"game maker" 1
+"nintendo games" 1
+"Professional Gamers" 1
+"ps4" 1
+"Koffing" 1
+"gaming console" 1
+"IGN" 1
+"#games" 1
+"#playstation" 1
+"@GavinNewsom" 1
+"Government/Education" 1
+"#sec" 1
+"big 10" 1
+"sec" 1
+"Weather" 1
+"@NHLBlackhawks" 1
+"defense" 1
+"puck" 1
+"#defense" 1
+"#puck" 1
+"Black Mirror (Netflix)" 1
+"dog food" 1
+"@jonlovett" 1
+"@MsPackyetti" 1
+"#edm" 1
+"new years" 1
+"@github" 1
+"@Discovery" 1
+"@SXSWGaming" 1
+"Marvel Universe" 1
+"Power" 1
+"#Power" 1
+"@vulture" 1
+"Paranormal phenomena" 1
+"@amazonmusic" 1
+"@AppleMusic" 1
+"community" 1
+"animal shelter" 1
+"bachelor's degree" 1
+"solar panels" 1
+"Hawaii" 1
+"@FT" 1
+"logistics" 1
+"Ex on the Beach" 1
+"MTV" 1
+"#mtv" 1
+"mtv" 1
+"Online Marketing" 1
+"#CES" 1
+"call of duty" 1
+"nintendo" 1
+"videogame" 1
+"@pragmaticmom" 1
+"Babies and toddlers" 1
+"mom" 1
+"moms" 1
+"daycare" 1
+"kids" 1
+"baby" 1
+"preschool" 1
+"son" 1
+"dads" 1
+"dad" 1
+"@ChemistryWorld" 1
+"@SwiftOnSecurity" 1
+"@dog_feelings" 1
+"advocate" 1
+"advocates" 1
+"@TigerWoods" 1
+"tiger" 1
+"@HouseofCards" 1
+"Law & Order: Special Victims Unit" 1
+"musics" 1
+"#bitcoin" 1
+"ces" 1
+"@NPRHealth" 1
+"@rickygervais" 1
+"Wood" 1
+"interior design" 1
+"@Greenpeace" 1
+"@WhiteHouse" 1
+"humanresources" 1
+"Mentoring" 1
+"resources" 1
+"recruiting" 1
+"human resources" 1
+"#recruiting" 1
+"resource" 1
+"#employees" 1
+"healthcare" 1
+"human resource" 1
+"@voxdotcom" 1
+"Fruits" 1
+"Vegetables" 1
+"flint" 1
+"#flint" 1
+"@dog_rates" 1
+"puppy" 1
+"leash" 1
+"#catsofinstagram" 1
+"#leash" 1
+"#puppy" 1
+"kitty cat" 1
+"puppies" 1
+"my cat" 1
+"#puppies" 1
+"our cat" 1
+"venture capitalist" 1
+"@DarkHorseComics" 1
+"@StarTrekMovie" 1
+"@BeyondTVSeries" 1
+"#Salt" 1
+"Battlestar Galactica" 1
+"#Her" 1
+"#GameofThrones" 1
+"Stranger Things" 1
+"#Juno" 1
+"Return of the Jedi" 1
+"Star Wars" 1
+"Black Mirror" 1
+"Juno" 1
+"Echo Fox (Esports)" 1
+"incubator" 1
+"#employee" 1
+"options" 1
+"#shares" 1
+"#riskmanagement" 1
+"Taxes" 1
+"#hedging" 1
+"shares" 1
+"#invest" 1
+"funds" 1
+"asset" 1
+"#earnings" 1
+"#asset" 1
+"hedging" 1
+"#Shareholders" 1
+"wealth" 1
+"#risk" 1
+"earnings" 1
+"inflation" 1
+"initial public offering" 1
+"#inflation" 1
+"#options" 1
+"#funds" 1
+"Invest" 1
+"#Invest" 1
+"#assets" 1
+"Shareholders" 1
+"#investing" 1
+"Personal finance" 1
+"invest" 1
+"#Taxes" 1
+"#wealth" 1
+"assets" 1
+"employee" 1
+"unicorns" 1
+"daiquiris" 1
+"code geass" 1
+"Rooster Teeth SVOD and Store Visitors" 1
+"@Refugees" 1
+"@NOH8Campaign" 1
+"@amnesty" 1
+"@PPact" 1
+"@glaad" 1
+"#giving" 1
+"P3View-US-SiteVisit" 1
+"@SenWarren" 1
+"@SenateDems" 1
+"@SenSchumer" 1
+"@PopSci" 1
+"@SpaceX" 1
+"@arstechnica" 1
+"@Salon" 1
+"@WIREDBusiness" 1
+"WIRED" 1
+"Adweek" 1
+"Mashable" 1
+"Engadget" 1
+"transit" 1
+"rail" 1
+"#railway" 1
+"transportation" 1
+"Celebrity fan and gossip" 1
+"mtg" 1
+"#mtg" 1
+"feminism" 1
+"@joerogan" 1
+"@NWF" 1
+"@NinoMcKinnon" 1
+"animal lovers" 1
+"animal lover" 1
+"Post Malone" 1
+"taxes" 1
+"Education news and general info" 1
+"US|Ubi|EDP|Twitter|TCTD2|LostHeroes" 1
+"US|Ubi|EDP|Twitter|TCTD2|BetaRegistrants" 1
+"US|Ubi|EDP|Twitter|TCTD2|R6Sfans" 1
+"US|Ubi|EDP|Twitter|TCTD2|Newcomers" 1
+"US|Ubi|EDP|Twitter|TCTD2|VeteranAgents" 1
+"US|Ubi|EDP|Twitter|TCTD2|OpenWorld" 1
+"US|Ubi|EDP|Twitter|TCTD2|GRWfans" 1
+"#Ravens" 1
+"@SuperBowl" 1
+"Ravens" 1
+"Chargers" 1
+"Green Bay Packers" 1
+"Baltimore Ravens" 1
+"Broncos" 1
+"#Broncos" 1
+"#Chargers" 1
+"@DragonCon" 1
+"Kevin Hart" 1
+"#Cats" 1
+"Animations" 1
+"#Animations" 1
+"#Android" 1
+"Pop music" 1
+"@YTCreators" 1
+"Lindsay Lohan's Beach Club" 1
+"Science" 1
+"@lakers" 1
+"#marchmadness" 1
+"#katyperry" 1
+"@nfl" 1
+"katyperry" 1
+"#goldenglobes" 1
+"taylor swift" 1
+"hulu" 1
+"star wars" 1
+"worldcup" 1
+"millennials" 1
+"#foodie" 1
+"stranger things" 1
+"sza" 1
+"@youtube" 1
+"cardi b" 1
+"#worldcup" 1
+"#olympics" 1
+"ed sheeran" 1
+"thr" 1
+"black mirror" 1
+"#gameofthrones" 1
+"strangerthings" 1
+"#edsheeran" 1
+"#bingewatching" 1
+"#lala" 1
+"lala" 1
+"#strangerthings" 1
+"marchmadness" 1
+"#arianagrande" 1
+"#sza" 1
+"@gameofthrones" 1
+"seth rogen" 1
+"john legend" 1
+"#thr" 1
+"bingewatching" 1
+"ariana grande" 1
+"#empirefox" 1
+"olympics" 1
+"#chrisbrown" 1
+"#taylorswift13" 1
+"@Trevornoah" 1
+"@TwitterSports" 1
+"#dunk" 1
+"Eminem" 1
+"layup" 1
+"dunk" 1
+"assists" 1
+"#assist" 1
+"lay up" 1
+"#layup" 1
+"#dunking" 1
+"#assists" 1
+"assist" 1
+"dunking" 1
+"Kanye" 1
+"@MatthewBerryTMR" 1
+"humanity" 1
+"clean energy" 1
+"sbliii" 1
+"black lives matter" 1
+"#MLKDAy" 1
+"#BlackHistorymonth" 1
+"Martin Luther King" 1
+"@BET" 1
+"analytics" 1
+"@IAmSteveHarvey" 1
+"iot" 1
+"Entrepreneur" 1
+"sharing" 1
+"kindness" 1
+"shameless" 1
+"All website visits" 1
+"@people" 1
+"@ELLEmagazine" 1
+"dentist" 1
+"@Etsy" 1
+"Michael Bublé" 1
+"Business & Finance" 1
+"Golden Globes" 1
+"advocacy" 1
+"@TVsAndyDaly" 1
+"@GregProops" 1
+"@EugeneMirman" 1
+"@davidcrosss" 1
+"@BoJackHorseman" 1
+"@MelBrooks" 1
+"@VancityReynolds" 1
+"@JAdomian" 1
+"Tina Fey" 1
+"Fight" 1
+"#MMA" 1
+"Wrestling" 1
+"#Fight" 1
+"#Winning" 1
+"Racing" 1
+"#Wrestling" 1
+"#Scores" 1
+"#Referee" 1
+"#Racing" 1
+"#WorldCup" 1
+"#Hockey" 1
+"Referee" 1
+"Scores" 1
+"Winning" 1
+"themselves" 1
+"@Blklivesmatter" 1
+"@McDonalds" 1
+"Dunkin' Donuts" 1
+"Donuts" 1
+"Sonic" 1
+"White Castle" 1
+"KFC" 1
+"Jimmy John's" 1
+"chicken nuggets" 1
+"#KFC" 1
+"Chicken Nuggets" 1
+"#agriculture" 1
+"crops" 1
+"#crops" 1
+"@JohnCena" 1
+"#rentlive" 1
+"@rentonfox" 1
+"#rentonfox" 1
+"rentonfox" 1
+"@HoustonChron" 1
+"#steel" 1
+"#frame" 1
+"@dwyanewade" 1
+"#kimkardashian" 1
+"#familyguy" 1
+"movies" 1
+"facebook" 1
+"@kimkardashian" 1
+"@thr" 1
+"#architectural" 1
+"architecture" 1
+"architectural" 1
+"NHL" 1
+"@Recode" 1
+"residences" 1
+"airport" 1
+"Marketing" 1
+"barista" 1
+"espresso" 1
+"vacation" 1
+"#parenting" 1
+"camps" 1
+"screenplay" 1
+"#FreeKick" 1
+"@Android" 1
+"Apple - iPhone" 1
+"Apple - Siri" 1
+"smartphone" 1
+"siri" 1
+"@cnni" 1
+"@wolfblitzer" 1
+"@EconBizFin" 1
+"@guardian" 1
+"@ariannahuff" 1
+"#news" 1
+"#podcast" 1
+"podcast" 1
+"#journalism" 1
+"TIME" 1
+"#TIME" 1
+"natural" 1
+"#natural" 1
+"Robert Woods" 1
+"SB" 1
+"#SB" 1
+"#wendys" 1
+"soup" 1
+"jimmy john's" 1
+"#dunks" 1
+"in-n-out" 1
+"dunks" 1
+"burger" 1
+"brunch" 1
+"starving" 1
+"bdubs" 1
+"#bdubs" 1
+"kfc" 1
+"about to eat" 1
+"#comfortfood" 1
+"#sonic" 1
+"#macdonalds" 1
+"going to eat" 1
+"food delivery" 1
+"take-out" 1
+"i ate" 1
+"#seafood" 1
+"seafood" 1
+"#menu" 1
+"#mcds" 1
+"#brunch" 1
+"#kfc" 1
+"sonic" 1
+"#soup" 1
+"#dinner" 1
+"#sushi" 1
+"#burgers" 1
+"mcd's" 1
+"wendy's" 1
+"takeout" 1
+"#burger" 1
+"cafe" 1
+"burgers" 1
+"#lunch" 1
+"#takeout" 1
+"ordering food" 1
+"macdonalds" 1
+"what to eat" 1
+"jimmy johns" 1
+"#mcd's" 1
+"sushi" 1
+"mcds" 1
+"drawing" 1
+"#learn" 1
+"#life" 1
+"meditation" 1
+"#learning" 1
+"#skills" 1
+"#teaching" 1
+"#Pats" 1
+"Kansas City Chiefs" 1
+"New Orleans Saints" 1
+"Pats" 1
+"@patriots" 1
+"@nytimesarts" 1
+"#dellemc" 1
+"@geoffkeighley" 1
+"Football" 1
+"#Football" 1
+"#Bowls" 1
+"Defense" 1
+"Bowls" 1
+"American Football" 1
+"Big Boi" 1
+"Halftime" 1
+"#halftime" 1
+"@eagles" 1
+"eagles" 1
+"@colbertlateshow" 1
+"@SHODesusAndMero" 1
+"#halfback" 1
+"#FG" 1
+"kickoff" 1
+"#goal" 1
+"kick off" 1
+"quarterback" 1
+"tackle" 1
+"#tackle" 1
+"#huddle" 1
+"goal" 1
+"#kickoff" 1
+"linebacker" 1
+"fullback" 1
+"#quarterback" 1
+"#linebacker" 1
+"halfback" 1
+"#PAT" 1
+"huddle" 1
+"FG" 1
+"#fullback" 1
+"PAT" 1
+"Planters" 1
+"half-time" 1
+"#BigBoi" 1
+"Pull Ups" 1
+"#Mum" 1
+"Mum" 1
+"#twitch" 1
+"#2k" 1
+"2k" 1
+"#COD" 1
+"esports" 1
+"twitch" 1
+"#esports" 1
+"oprah" 1
+"NCS > NCS for Kraft - L13Wks OTG Competitive Pizza Buyers PD07746 - 1004427519" 1
+"#cod" 1
+"#fallout" 1
+"podcasts" 1
+"outdoors" 1
+"@timoreilly" 1
+"@HarvardHealth" 1
+"healing" 1
+"wellbeing" 1
+"Electronic" 1
+"Pop" 1
+"College Basketball" 1
+"@suns" 1
+"#suns" 1
+"@IssaRae" 1
+"@zoesaldana" 1
+"@RottenTomatoes" 1
+"event" 1
+"Sci-fi & Fantasy" 1
+"Move" 1
+"@chloexhalle" 1
+"holiday" 1
+"shopping" 1
+"gifting" 1
+"Zara" 1
+"christmas" 1
+"medicare" 1
+"Ice Cream" 1
+"ice cream" 1
+"@BTS_twt" 1
+"@azizansari" 1
+"@priyankachopra" 1
+"@AlejandroSanz" 1
+"#bilingual" 1
+"@SAI" 1
+"tech's" 1
+"mental illness" 1
+"Movie - Bohemian Rhapsody" 1
+"2019 Australian Open Tennis" 1
+"@Converse" 1
+"@RalphLauren" 1
+"#Adidas" 1
+"#Converse" 1
+"#Vans" 1
+"Vans" 1
+"Converse" 1
+"#Reebok" 1
+"Adidas" 1
+"#SWIMS" 1
+"Reebok" 1
+"SWIMS" 1
+"@WhoopiGoldberg" 1
+"@officialjaden" 1
+"@Migos" 1
+"@TherealTaraji" 1
+"@TheRoot" 1
+"@MHarrisPerry" 1
+"@Lavernecox" 1
+"@IAMQUEENLATIFAH" 1
+"@SnoopDogg" 1
+"@JoyAnnReid" 1
+"Black Community" 1
+"Black tradition" 1
+"Black Perspectives" 1
+"@MiamiHEAT" 1
+"@KyrieIrving" 1
+"@JHarden13" 1
+"@realDonaldTrump" 1
+"@HillaryClinton" 1
+"christ" 1
+"faith" 1
+"#bhm" 1
+"@FCBarcelona" 1
+"@Cristiano" 1
+"@ChampionsLeague" 1
+"@WarnerBrosEnt" 1
+"@Lin_Manuel" 2
+"fund" 2
+"Holiday Shopping" 2
+"Performance arts" 2
+"@BillGates" 2
+"@RedCross" 2
+"Philanthropy" 2
+"#edchat" 2
+"edchat" 2
+"Family and Life Stages" 2
+"@BarackObama" 2
+"@StarTrek" 2
+"@RickandMorty" 2
+"@starwars" 2
+"#StarTrek" 2
+"#StrangerThings" 2
+"Music" 2
+"@FoxNews" 2
+"US - Household income: $50,000 - $74,999" 2
+"@TravelMagazine" 2
+"flight" 2
+"#family" 2
+"#bbq" 2
+"boarding passes" 2
+"#flight" 2
+"Vacation" 2
+"Vacays" 2
+"#Vacations" 2
+"#flying" 2
+"frozen" 2
+"boarding pass" 2
+"Vacay" 2
+"bbq" 2
+"wind" 2
+"family" 2
+"road trip" 2
+"#Vacay" 2
+"heat" 2
+"carry-on" 2
+"#vacationing" 2
+"vacationing" 2
+"#carry-on" 2
+"flying" 2
+"ice" 2
+"#Vacays" 2
+"flights" 2
+"Vacations" 2
+"#flights" 2
+"#Vacation" 2
+"#filmmaker" 2
+"#filmmakers" 2
+"#animation" 2
+"#cinematography" 2
+"drink" 2
+"#throwback" 2
+"@AndyRichter" 2
+"Political elections" 2
+"cleaning" 2
+"#cleaning" 2
+"momlife" 2
+"#momlife" 2
+"Wendys" 2
+"PlayStation" 2
+"IRI > Frozen Handheld Food Category Q4 18 > MOB > Complete Audiences > Kraft Heinz - 1004348679" 2
+"DLX_Kraft_Devour_FrozenMealsComp_R4_E.202109" 2
+"DLX_Kraft_Devour_FrozenHandheldsComp_R4_E.202108" 2
+"Switch" 2
+"#superman" 2
+"ingredients" 2
+"Consoles" 2
+"chocolates" 2
+"baking" 2
+"#comics" 2
+"comic books" 2
+"Comic" 2
+"#Switch" 2
+"Superman" 2
+"#comicbook" 2
+"#ingredients" 2
+"#comic" 2
+"#callofduty" 2
+"#groceries" 2
+"#chocolate" 2
+"Comic Books" 2
+"groceries" 2
+"#baking" 2
+"#console" 2
+"Overwatch" 2
+"#chef" 2
+"#comicbooks" 2
+"#chocolates" 2
+"film" 2
+"television" 2
+"film's" 2
+"Romance" 2
+"Amy Poehler" 2
+"@hootsuite" 2
+"Other mobile" 2
+"homeowner" 2
+"water" 2
+"walmart" 2
+"Recipes" 2
+"@GMC" 2
+"Auto" 2
+"kitty" 2
+"#kittens" 2
+"#kitties" 2
+"#kitty" 2
+"kitten" 2
+"kitties" 2
+"#kitten" 2
+"#equality" 2
+"equality" 2
+"Drawing and sketching" 2
+"Painting" 2
+"Journalism" 2
+"#bonds" 2
+"#bond" 2
+"bond" 2
+"#investment" 2
+"#finance" 2
+"bonds" 2
+"@DCComics" 2
+"ZAYN" 2
+"Michael Buble" 2
+"Rebel Wilson" 2
+"#tequila" 2
+"#tacos" 2
+"salesforce" 2
+"Tobacco" 2
+"smoking" 2
+"@margaretcho" 2
+"The Ballad of Buster Scruggs" 2
+"Spike Lee" 2
+"Cinematography" 2
+"Oscar Noms" 2
+"Vice" 2
+"@NewYorker" 2
+"@CaptainAmerica" 2
+"personal finance" 2
+"PowerPoint" 2
+"Iphone" 2
+"PC" 2
+"Hospitals" 2
+"chatbots" 2
+"Lakers" 2
+"#trade" 2
+"@billboard" 2
+"@Panthers" 2
+"@packers" 2
+"@Lions" 2
+"@wef" 2
+"@UNHumanRights" 2
+"sustainability" 2
+"@Microsoft" 2
+"@travelchannel" 2
+"farming" 2
+"@kerrywashington" 2
+"Retail" 2
+"@natgeowild" 2
+"@shiber" 2
+"@catcontents" 2
+"@PBS" 2
+"#stocks" 2
+"INSTALL-com.cmplay.bricksnballs-ANDROID" 2
+"Jimmy Johns" 2
+"science" 2
+"@RED" 2
+"@nature" 2
+"augmented reality" 2
+"@sundancefest" 2
+"@SamuelLJackson" 2
+"@saikatc" 2
+"MMA" 2
+"@HP" 2
+"Japan" 2
+"@arresteddev" 2
+"Retargeting engagement type: 2" 2
+"League of Legends" 2
+"@Ubisoft" 2
+"@ClashofClans" 2
+"@VICE" 2
+"#cafe" 2
+"starbucks" 2
+"#breakfast" 2
+"#starbucks" 2
+"gym" 2
+"diet" 2
+"@WWE" 2
+"#Match" 2
+"#Boxing" 2
+"Boxing" 2
+"Winner" 2
+"Match" 2
+"#Winner" 2
+"Gamers" 2
+"playstation" 2
+"games" 2
+"New Year's 2018" 2
+"53217" 2
+"MasterChef Junior" 2
+"@FallonTonight" 2
+"@TheDailyShow" 2
+"@DEADLINE" 2
+"@GooglePlay" 2
+"@gatesfoundation" 2
+"@EvaLongoria" 2
+"#banks" 2
+"#bank" 2
+"@MTV" 2
+"#fundraising" 2
+"philanthropy" 2
+"#WWE" 2
+"WWE" 2
+"@NIMHgov" 2
+"Music festivals and concerts" 2
+"@nytfood" 2
+"@jamieoliver" 2
+"@tomcolicchio" 2
+"@SAVEURMAG" 2
+"education's" 2
+"@goldenglobes" 2
+"@Festival_Cannes" 2
+"grown-ish" 2
+"@CDCgov" 2
+"@NIH" 2
+"@ThatKevinSmith" 2
+"@lifehacker" 2
+"@DigitalTrends" 2
+"Instagram" 2
+"#BFF" 2
+"artificial intelligence" 2
+"@USDA" 2
+"low carb" 2
+"gender equality" 2
+"General info" 2
+"risk" 2
+"journalism" 2
+"@UniversalPics" 2
+"@NAACP" 2
+"@Slate" 2
+"microsoft" 2
+"evernote's" 2
+"#evernote" 2
+"evernote" 2
+"dropbox's" 2
+"#microsoft" 2
+"dropbox" 2
+"#dropbox" 2
+"tax" 2
+"@HoustonTexans" 2
+"#GoBills" 2
+"Jets" 2
+"#Jets" 2
+"Chiefs" 2
+"#Saints" 2
+"#Chiefs" 2
+"#Bengals" 2
+"Saints" 2
+"Bengals" 2
+"@CAH" 2
+"twitter" 2
+"bet" 2
+"#eminem" 2
+"#bet" 2
+"eminem" 2
+"@target" 2
+"tv" 2
+"#target" 2
+"helping" 2
+"learning" 2
+"accounting" 2
+"#interiordesign" 2
+"high school" 2
+"@DwyaneWade" 2
+"@BuzzFeed" 2
+"@SportsNation" 2
+"@WalkingDead_AMC" 2
+"@SHAQ" 2
+"@nikestore" 2
+"@rogerfederer" 2
+"@MLS" 2
+"@voguemagazine" 2
+"@USWNT" 2
+"Airbnb" 2
+"#renovation" 2
+"@dunkindonuts" 2
+"@SUBWAY" 2
+"golden retriever" 2
+"@HoustonRockets" 2
+"@BBC_TopGear" 2
+"#nonprofit" 2
+"mentor" 2
+"#charity" 2
+"charity" 2
+"Chip" 2
+"Teams" 2
+"Chips" 2
+"#LosAngeles" 2
+"#Quarterback" 2
+"Shopping" 2
+"Tackle" 2
+"#Chip" 2
+"Quarterback" 2
+"#Shopping" 2
+"#Tackle" 2
+"#Chips" 2
+"#Teams" 2
+"@BillSimmons" 2
+"Go Pats" 2
+"Sides" 2
+"#Sides" 2
+"Patriots" 2
+"#Patriots" 2
+"@HHSGov" 2
+"Dad" 2
+"Soda" 2
+"superbowls" 2
+"@Patriots" 2
+"#SBLIII" 2
+"@djkhaled" 2
+"@tyleroakley" 2
+"American Ninja Warrior" 2
+"overwatch" 2
+"cod" 2
+"#overwatch" 2
+"food blogger" 2
+"@itsgabrielleu" 2
+"@wbpictures" 2
+"@JColeNC" 2
+"@LilTunechi" 2
+"@wizkhalifa" 2
+"@kendricklamar" 2
+"@NeYoCompound" 2
+"Runners" 2
+"#Runners" 2
+"Trainers" 2
+"#Trainers" 2
+"gameplay" 2
+"#nationalguard" 2
+"#usarmy" 2
+"@charli_xcx" 2
+"@lorde" 2
+"@Sia" 2
+"@carlyraejepsen" 2
+"@LanaDelRey" 2
+"SelenaGomez" 2
+"KatyPerry" 2
+"Ariana Grande" 2
+"entrepreneur" 3
+"AI" 3
+"degree" 3
+"@ZachLowe_NBA" 3
+"@KDTrey5" 3
+"@OrlandoMagic" 3
+"@evilhag" 3
+"@ycombinator" 3
+"@SouthPark" 3
+"cheese" 3
+"chicken" 3
+"eat" 3
+"The Beatles" 3
+"@codinghorror" 3
+"#it" 3
+"storm" 3
+"blizzard" 3
+"eats" 3
+"#eats" 3
+"#film" 3
+"#films" 3
+"Coca Cola - Diet Coke" 3
+"Coca-Cola - Coke Zero" 3
+"@OfficialJLD" 3
+"taco" 3
+"BP" 3
+"mining" 3
+"Meal" 3
+"Taco Bell" 3
+"Millennials" 3
+"#videogame" 3
+"Call of Duty" 3
+"Millennial" 3
+"#millennials" 3
+"Fortnite" 3
+"LoL" 3
+"#videogames" 3
+"Xbox One" 3
+"Chef" 3
+"#millennial" 3
+"Xbox" 3
+"Gamer" 3
+"Generic Food" 3
+"@TwitterMovies" 3
+"Fashion" 3
+"Donald Trump" 3
+"#comedy" 3
+"Appliances" 3
+"Home" 3
+"@bioware" 3
+"@PlayOverwatch" 3
+"Holidays" 3
+"Christmas" 3
+"#automotive" 3
+"#cats" 3
+"cats" 3
+"kittens" 3
+"human rights" 3
+"game" 3
+"beans" 3
+"NBA Basketball" 3
+"Photography" 3
+"Cartoons" 3
+"pittsburgh penguins" 3
+"@ComedyCentral" 3
+"investment" 3
+"Space and astronomy" 3
+"@adultswim" 3
+"@ArianaGrande" 3
+"Silk" 3
+"Movie - Black Panther" 3
+"Bradley Cooper" 3
+"Roma" 3
+"coffee" 3
+"tea" 3
+"roma" 3
+"@cnnbrk" 3
+"coins" 3
+"#coins" 3
+"@ClawsTNT" 3
+"trade" 3
+"@porterrobinson" 3
+"influencer" 3
+"ar" 3
+"blockchain" 3
+"dance" 3
+"hiring" 3
+"@Seahawks" 3
+"@Browns" 3
+"@HuffPostPol" 3
+"@chucktodd" 3
+"@nprpolitics" 3
+"Make-up and Cosmetics" 3
+"#machinelearning" 3
+"@UNICEF" 3
+"@NatGeoTravel" 3
+"@lonelyplanet" 3
+"@CNTraveler" 3
+"Sustainability" 3
+"@GordonRamsay" 3
+"btc" 3
+"bitcoin" 3
+"crypto" 3
+"@AmericanCancer" 3
+"@KamalaHarris" 3
+"Movie - Captain Marvel" 3
+"@latimes" 3
+"@CBSNews" 3
+"cybersecurity" 3
+"@intel" 3
+"@RockstarGames" 3
+"fries" 3
+"#fries" 3
+"gaming" 3
+"xbox" 3
+"@TheRock" 3
+"@Gizmodo" 3
+"@FinancialTimes" 3
+"The Bachelor" 3
+"CES" 3
+"fortnite" 3
+"donate" 3
+"@SamsungMobile" 3
+"@foxsearchlight" 3
+"@MGM_Studios" 3
+"@AP" 3
+"@Reuters" 3
+"#nfl" 3
+"#fantasyfootball" 3
+"@superbowl" 3
+"@CallofDuty" 3
+"tom brady" 3
+"#investors" 3
+"target" 3
+"#superbowl" 3
+"@ArchDaily" 3
+"Design" 3
+"Amazon - Alexa" 3
+"@taylorswift13" 3
+"tech" 3
+"Domino's Pizza" 3
+"Fun" 3
+"#Fun" 3
+"LA" 3
+"@usedgov" 3
+"news" 3
+"Tom Brady" 3
+"#Guess" 3
+"@JonahHill" 3
+"@SteveCarell" 3
+"#NewBorn" 3
+"#CarSeat" 3
+"#Dad" 3
+"Baby" 3
+"seats" 3
+"#seats" 3
+"baseball" 3
+"environment" 3
+"@RecordingAcad" 3
+"@CIA" 3
+"@StateDept" 3
+"@DeptofDefense" 3
+"@Interior" 3
+"usa" 3
+"patriotic" 3
+"#troops" 3
+"marine" 3
+"veterans" 3
+"navy" 3
+"marines" 3
+"#marine" 3
+"#patriotic" 3
+"troops" 3
+"army" 3
+"#navy" 3
+"#veteran" 3
+"#army" 3
+"veteran" 3
+"#military" 3
+"#marines" 3
+"#veterans" 3
+"#usa" 3
+"@InsideGaming" 3
+"consoles" 3
+"multiplayer" 3
+"The 61st Annual Grammy Awards 2019" 3
+"church" 3
+"Android Jelly Bean and above" 4
+"stocks" 4
+"IT" 4
+"parents" 4
+"college" 4
+"#photoshop" 4
+"#photography" 4
+"#photographer" 4
+"photography" 4
+"@chicagobulls" 4
+"menu" 4
+"lunch" 4
+"dinner" 4
+"@IMDb" 4
+"@googledevs" 4
+"US - Household income: $20,000 - $29,999" 4
+"US - Household income: $30,000 - $39,999" 4
+"US - Household income: $40,000 - $49,999" 4
+"@enriqueiglesias" 4
+"@LuisFonsi" 4
+"Beverage" 4
+"meals" 4
+"@majornelson" 4
+"@karliekloss" 4
+"@MichelleObama" 4
+"Comics" 4
+"#xbox" 4
+"#Nintendo" 4
+"#fortnite" 4
+"TV/Movies Related" 4
+"Political News" 4
+"@mradamscott" 4
+"#cat" 4
+"cat" 4
+"videogames" 4
+"instagram" 4
+"The 76th Annual Golden Globe Awards 2019" 4
+"Milk" 4
+"#health" 4
+"Wisconsin" 4
+"@ACLU" 4
+"Saturday Night Live" 4
+"#TBT (Throwback Thursday)" 4
+"Dining Out" 4
+"Going Out" 4
+"friday" 4
+"weekend" 4
+"SUPER HOLDOUT_8/27" 4
+"@thehill" 4
+"@elonmusk" 4
+"@AnimalPlanet" 4
+"@DisneyPixar" 4
+"@Disney" 4
+"@Target" 4
+"Sports" 4
+"parent" 4
+"@engadget" 4
+"@TheAtlantic" 4
+"@EA" 4
+"@rainnwilson" 4
+"Pizza" 4
+"console" 4
+"Milwaukee WI, US" 4
+"@TheEconomist" 4
+"@MarketWatch" 4
+"babies" 4
+"@DHSgov" 4
+"@TheJusticeDept" 4
+"@guardiantech" 4
+"@MensHealthMag" 4
+"#NFL" 4
+"@FIFAcom" 4
+"@nikefootball" 4
+"You're the Worst" 4
+"@Nike" 4
+"packaging" 4
+"@CommerceGov" 4
+"#babies" 4
+"#Parents" 4
+"#Baby" 4
+"#patriots" 4
+"gamers" 5
+"finance" 5
+"@tumblr" 5
+"@500px" 5
+"photographer" 5
+"#illustrator" 5
+"animation" 5
+"illustrator" 5
+"@KingJames" 5
+"@StephenCurry30" 5
+"breakfast" 5
+"eating" 5
+"@Drake" 5
+"Politics" 5
+"Nintendo" 5
+"@jimmyfallon" 5
+"@NintendoAmerica" 5
+"@blakeshelton" 5
+"@drivendataorg" 5
+"@cartoonnetwork" 5
+"Insurance" 5
+"#startups" 5
+"founder" 5
+"startups" 5
+"#founders" 5
+"#food" 5
+"@Variety" 5
+"Tesla Motors" 5
+"investing" 5
+"Mystery and crime" 5
+"@politico" 5
+"@Tesla" 5
+"@TravelLeisure" 5
+"@katyperry" 5
+"@IndieWire" 5
+"@CNN" 5
+"Superbowl" 5
+"CES (The International Consumer Electronics Show) 2019" 5
+"@OITNB" 5
+"@EmpireFOX" 5
+"@verge" 5
+"@HarvardBiz" 5
+"@BBCWorld" 5
+"parenting" 5
+"@TIME" 5
+"NFL Playoffs 2019" 5
+"@techreview" 5
+"@enews" 5
+"#patients" 5
+"nfl" 5
+"Entertainment awards" 5
+"superbowl" 5
+"@DeptVetAffairs" 5
+"@BookRiot" 5
+"#icecream" 5
+"icecream" 5
+"champs" 5
+"#champs" 5
+"@SBAgov" 5
+"@Lakers" 6
+"food" 6
+"@selenagomez" 6
+"Pepsi" 6
+"@MarthaStewart" 6
+"@hitRECordJoe" 6
+"@bflay" 6
+"@serenawilliams" 6
+"Chocolate" 6
+"Video Games" 6
+"Entertainment" 6
+"Documentary" 6
+"entrepreneurs" 6
+"entrepreneurship" 6
+"#startup" 6
+"IRI > Noosa Lapsed Buyers  > Verified > Noosa - 1002704336" 6
+"IRI > Noosa Buyers Last 6 Months > Verified > Noosa - 1002704116" 6
+"IRI > Private Label Yogurt OR Vegan Buyers > Verified > Noosa - 1002704356" 6
+"startup" 6
+"#education" 6
+"#entrepreneurs" 6
+"agriculture" 6
+"technology" 6
+"@NHL" 6
+"@business" 6
+"True Detective" 6
+"@marcformarc" 6
+"@EW" 6
+"patriots" 6
+"@TheHorrorMaster" 6
+"#entrepreneur" 7
+"@designmilk" 7
+"13 to 24" 7
+"@JLo" 7
+"@shondarhimes" 7
+"rock" 7
+"anime" 7
+"kpop" 7
+"comedy" 7
+"#gamer" 7
+"@goodhealth" 7
+"gamer" 7
+"@Kotaku" 7
+"Basketball" 7
+"National parks" 7
+"Tech News" 7
+"riverdale" 7
+"#riverdale" 7
+"Parents" 7
+"@FoodNetwork" 7
+"@NatGeo" 8
+"@Lightroom" 8
+"@rachaelray" 8
+"@TylerFlorence" 8
+"@HuffPost" 8
+"@WholeFoods" 8
+"@mindykaling" 8
+"@hgtv" 8
+"@Google" 8
+"@IGN" 8
+"@johnlegend" 8
+"Cats" 8
+"#entrepreneurship" 8
+"Parenting Teens" 8
+"@WSJ" 8
+"SuperBowl" 8
+"@Photoshop" 9
+"education" 9
+"Horror" 9
+"@bonappetit" 9
+"@Starbucks" 9
+"@GuyFieri" 9
+"@GDeLaurentiis" 9
+"@altonbrown" 9
+"@Oprah" 9
+"Rock" 9
+"J-POP" 9
+"K-Pop" 9
+"Cooking/Baking" 9
+"@mashable" 9
+"Animation" 9
+"The 91st Annual Academy Awards 2019" 9
+"Beauty" 9
+"@businessinsider" 9
+"@ForbesTech" 9
+"@WHO" 9
+"Console gaming" 10
+"math" 10
+"21 to 49" 10
+"Cooking" 10
+"Netflix" 10
+"@Polygon" 10
+"13 to 54" 10
+"Science news" 10
+"NFL Football" 10
+"#SuperBowl" 10
+"Food" 11
+"@ESPNNBA" 11
+"Gaming news and general info" 11
+"@Xbox" 11
+"@PlayStation" 11
+"60603" 11
+"@HuffPostParents" 12
+"13 and up" 12
+"@Forbes" 12
+"foodie" 12
+"NBA Season 2018-2019" 12
+"60639" 12
+"@THR" 12
+"health" 12
+"NBA" 13
+"@nytimes" 13
+"Movie news and general info" 13
+"@HBO" 13
+"music" 13
+"Dogs" 13
+"@SportsCenter" 13
+"@BleacherReport" 13
+"Spanish" 14
+"@EmmaWatson" 14
+"@espn" 14
+"Parenting K-6 kids" 15
+"@TheEllenShow" 15
+"@washingtonpost" 15
+"60625" 15
+"@MercedesBenz" 15
+"18 to 24" 16
+"@WIRED" 16
+"@chrissyteigen" 16
+"@NBA" 17
+"Dance" 17
+"60609" 17
+"Computer gaming" 18
+"@YouTube" 18
+"13 to 49" 18
+"Sci-fi and fantasy" 18
+"Android Kit Kat and above" 19
+"Technology" 19
+"politics" 20
+"Online gaming" 21
+"21 to 54" 23
+"21 to 34" 25
+"@TechCrunch" 25
+"Illinois" 27
+"Comedy" 28
+"13 to 34" 28
+"NFL" 29
+"Super Bowl 53" 31
+"@netflix" 32
+"Tech news" 33
+"@NFL" 38
+"Android" 39
+"21 and up" 50
+"18 to 54" 60
+"18 to 49" 70
+"18 to 34" 79
+"Female" 88
+"Chicago IL, US" 90
+"English" 96
+"18 and up" 165
+"United States" 1164
