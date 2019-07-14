@@ -15,7 +15,7 @@
 	</head>
 	
 	<body data-spy="scroll" data-target="#navbar_top" data-offset="0">
-	<a id="about">
+	<a id="home">
 	<!--top nav bar-->
 		<nav id="navbar_top" class="navbar sticky-top navbar-expand-lg navbar-light bg-light navbar-custom">
 		  <a class="navbar-brand" href="#">Emma Juettner</a>
@@ -26,13 +26,16 @@
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 			  <li class="nav-item">
-				<a class="nav-link" href="#about">About</a>
+				<a class="nav-link" href="#home">Home</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="#projects">Projects</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#experience">Experience</a>
+				<a class="nav-link" href="about_me">Experience</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="tutorials">Tutorials</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="#contact">Contact</a>
@@ -42,25 +45,23 @@
 		</nav>
 	
 		<!--Introductory jumbotron-->
-		
-		
-		<div class="about_me">
+		<div class="home_jumbotron">
 			<div class="jumbotron">
-			  <img class="jumbotron-img" src="images/emma.jpg" alt="headshot of smiling person with blond hair and glasses">
-			  <p class="lead">Hello! I'm a math and computer science major completing my junior year at Lake Forest College. 
-				I'm currently looking for software development internships for summer 2019.
-				Below, you can find some of my qualifications and projects I've worked on.</p>
-			  <div class="jumbotron-buttons">
-			  <a class="btn btn-primary btn-lg" href="#contact" role="button">Contact Me</a>
-			  <a class="btn btn-primary btn-lg" href="EmmaJuettnerCV.pdf" role="button" style="margin-left: 10px;">Resume</a>
-			  </div>
+			  <p class="lead">Hello! I'm a math and computer science major 
+			  graduating in May 2020 from Lake Forest College. I have experience
+			  in Agile software development and I'm proficient in languages 
+			  including Java, Python, and more.	Please feel free to take a look
+			  at the <a class="text-link" href="#projects">projects</a> I've worked on 
+			  and <a class="text-link" href="tutorials">tutorials</a> I've written, 
+			  as well as my <a class="text-link" href="about_me">experience</a> 
+			  and <a class="text-link" href="EmmaJuettnerCV.pdf">resume</a>. Interested in 
+			  working with me? <a class="text-link" href="#contact">Contact me!</a></p>
 			</div>
 		</div>
 	
 		<!-- Container for the image gallery -->
 		<div class="project_bg">
 		<div class="project_gallery" id="projects">
-		<h1 class="section_header">Projects</h1>
 		<div class="card-columns">
 			<div class="card" style="width: 18rem;">
 			  <img class="card-img-top" src="images/circle_shooters.jpg" alt="Circle Shooter cover image">
@@ -71,6 +72,7 @@
 				<a href="https://github.com/emmajuettner/arcade_machine" class="btn btn-primary">More details</a>
 			  </div>
 			</div>
+			
 			<div class="card" style="width: 18rem;">
 			  <!--<img class="card-img-top" src="images/<img-name-here>.jpg" alt="img-desc-here">-->
 			  <div class="card-body">
@@ -81,6 +83,7 @@
 				<a href="https://github.com/emmajuettner/calendar_task_app" class="btn btn-primary">More details</a>
 			  </div>
 			</div>
+			
 			<div class="card" style="width: 18rem;">
 			  <img class="card-img-top" src="images/richter.jpg" alt="Powerpoint slide showing investment strategy graph">
 			  <div class="card-body">
@@ -91,6 +94,7 @@
 				<a href="https://github.com/emmajuettner/richter2017" class="btn btn-primary">More details</a>
 			  </div>
 			</div>
+			
 			<div class="card" style="width: 18rem;">
 			  <img class="card-img-top" src="images/tracery.JPG" alt="Screencap of Tracery editor">
 			  <div class="card-body">
@@ -100,6 +104,7 @@
 				<a href="https://github.com/emmajuettner/lfc_cs_club_tutorials" class="btn btn-primary">More details</a>
 			  </div>
 			</div>
+			
 			<div class="card" style="width: 18rem;">
 			  <img class="card-img-top" src="images/video_store.jpg" alt="Video Store menu screen">
 			  <div class="card-body">
@@ -110,6 +115,7 @@
 				<a href="https://github.com/DragonFlyer139/Video-Store" class="btn btn-primary">More details</a>
 			  </div>
 			</div>
+			
 			<div class="card" style="width: 18rem;">
 			  <!--<img class="card-img-top" src="images/<img-name-here>.jpg" alt="img-desc-here">-->
 			  <div class="card-body">
@@ -123,89 +129,7 @@
 		</div>
 		</div>
 		
-		
-		<!-- Experience section -->
-		<div class="experience_bg">
-		<div class="experience_skills" id="experience">
-		
-		<div class="row">
-			<div class="col">
-			
-				<h1 class="section_header">Education</h1>	
-				<ul class="timeline">
-					<li>
-						<h4>B.A. in Mathematics & Computer Science</h4>
-						<h5>Lake Forest College, Lake Forest, IL</h5>
-						<h6>GPA: 3.78/4.00</h6>
-						<p>Math & Computer Science Major, Spanish Minor</p>
-						<p>Extracurricular Involvement:</p>
-						<ul>
-							<li>Computer Science Club - Vice President of Resource Management</li>
-							<li>Math & Computer Science Student Advisory Board</li>
-							<li>Phi Sigma Iota Foreign Language Honor Society</li>
-						</ul>
-					</li>
-					<li>
-						<h4>High School</h4>
-						<h5>Nicolet High School, Glendale, WI</h5>
-						<h6>GPA: 4.65/5.00</h6>
-						<p>National Merit Scholar</p>
-					</li>
-				</ul>
-				
-				
-			</div>
-			
-			<div class="col timeline_container">
-			<h1 class="section_header">Work Experience</h1>
-				<ul class="timeline">
-					<li>
-						<h4>IT Help Desk Worker</h4>
-						<h5>Lake Forest College, Lake Forest, IL</h5>
-						<h6>February 2018 - Present</h6>
-						<p>Performed basic tech support and computer repair tasks.</p>
-					</li>
-					<li>
-						<h4>Freelance Transcriptionist</h4>
-						<h5>Rev.com</h5>
-						<h6>June 2017 - Present</h6>
-						<p>Transcribed audio and captioned video.</p>
-					</li>
-					<li>
-						<h4>Math/Computer Science Department Tutor</h4>
-						<h5>Lake Forest College, Lake Forest, IL</h5>
-						<h6>January 2017 - May 2017</h6>
-						<p>Assisted with CSCI 112: Introduction to Python course, tutored students and graded assignments.</p>
-					</li>
-					
-				</ul>
-			
-			</div>
-		</div>
-		</div>
-		
-		<div class="skills">
-		<h1 class="section_header">Skills</h1>
-			<div class="skill_tags">
-				<h5>
-				<span class="badge badge-info">Python</span>
-				<span class="badge badge-info">Java</span>
-				<span class="badge badge-info">HTML & CSS</span>
-				<span class="badge badge-info">Bootstrap</span>
-				<span class="badge badge-info">PHP</span>
-				<span class="badge badge-info">SQL</span>
-				<span class="badge badge-info">Git</span>
-				<span class="badge badge-info">Microsoft Office</span>
-				<span class="badge badge-info">Adobe Illustrator</span>
-				<span class="badge badge-info">Adobe Photoshop</span>
-				<span class="badge badge-info">Adobe Indesign</span>
-				<span class="badge badge-info">English (native speaker)</span>
-				<span class="badge badge-info">Spanish (advanced proficiency)</span>
-				</h5>
-			</div>
-		</div>
-		</div>
-		
+		<!--Contact Information-->
 		<div class="contact_bg">
 		<div class="contact_info" id="contact">
 		
@@ -215,7 +139,7 @@
 		  <p class="lead">Interested in hiring me or collaborating on a project?</br>Get in touch!</p>
 		  <div class="social_media_links">
 			<a href="mailto:juettnerek@lfc.edu" type="button" class="btn btn-outline-info">Email</a>
-			<a href="http://www.linkedin.com/in/emma-juettner-08897211a" type="button" class="btn btn-outline-info">LinkedIn</a>
+			<a href="https://www.linkedin.com/in/emma-juettner/" type="button" class="btn btn-outline-info">LinkedIn</a>
 			<a href="https://github.com/emmajuettner" type="button" class="btn btn-outline-info">Github</a>
 		</div>
 		</div>

@@ -1,14 +1,15 @@
 /*Main styles*/
 :root {
-  --accent-color: #EA4E4E;
-  --dark: #9FACBD;
-  --light: #EDC8B8;
-  --off-white: white;
+  --accent-color: #1FABF6;/*#3397CE;#EA4E4E;*/
+  --dark: #EEEEEE;
+  --off-white: #EEEEEE;
+  --bg-color: white;
+  --dark-font: black;
+  --light-font: white;
 }
 
-
 body {
-    background-color: var(--accent-color);
+    background-color: var(--bg-color);
 	font-family: "Libre Franklin", sans-serif;
 	margin: 0px;
 	position: relative;
@@ -39,28 +40,42 @@ h1 {
 .section_header {
 	margin: 0 auto;
 	margin-bottom: 20px;
+	color: var(--accent-color);
 }
 
 .navbar-custom {
-	background-color: var(--accent-color) !important;
+	background-color: var(--bg-color) !important;
 }
 
 .navbar-brand {
 	font-weight: bold;
-	color: var(--off-white) !important;
+	color: var(--accent-color) !important;
 }
 
-/*About Me*/
-.about_me {
+.navbar_top a {
+	float: left;
+	display:block;
+}
+
+.navbar-custom .nav-item a:hover {
+	border-bottom: 3px solid var(--accent-color);
+}
+
+.navbar-custom .nav-item a.active {
+	border-bottom: 3px solid var(--accent-color);
+}
+
+/*Homepage Jumbotron*/
+.home_jumbotron {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
-	background-color: var(--dark);
+	background-color: var(--bg-color);
 }
 
 .jumbotron {
-	width: 40%;
-	margin: 0 auto;
-	background-color: var(--off-white) !important;
+	width: 70%;
+	margin: auto;
+	background-color: var(--bg-color) !important;
 }
 
 .jumbotron-buttons {
@@ -70,30 +85,37 @@ h1 {
 .jumbotron-img {
 	width: 150px;
 	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
+	margin: auto;
 	display: block;
+}
+
+.text-link{
+	color: var(--accent-color);
 }
 
 /*Project Image Cards*/
 .project_bg {
-	background-color: var(--dark);
-	color: var(--off-white);
+	background-color: var(--bg-color);
+	color: var(--bg-color);
 }
 
 .project_gallery {
 	width: 80%;
 	margin: 0 auto;
-	padding-top: 60px;
-	background-color: var(--dark);
+	padding-top: 40px;
+	background-color: var(--bg-color);
 	padding-bottom: 1rem;
+}
+
+.card-columns {
+	padding-top: 50px;
 }
 
 .card {
 	display: inline-block;
 	color: black;
 	border-color: var(--dark);
+	border-width: 2px;
 }
 
 .skills-card {
@@ -113,12 +135,12 @@ h1 {
 
 /*Timeline*/
 .experience_bg {
-	background-color: var(--dark);
+	background-color: var(--bg-color);
 }
 
 .experience_skills {
 	padding-top: 60px;
-	background-color: var(--dark);
+	background-color: var(--bg-color);
 	width: 80%;
 	margin: 0 auto;
 	color: var(--off-white);
@@ -128,7 +150,7 @@ h1 {
 	margin: 0 auto;
 	width: 80%;
 	color: var(--off-white);
-	background-color: var(--dark);
+	background-color: var(--bg-color);
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
@@ -186,12 +208,14 @@ ul.timeline > li:before {
 
 /*Contact Info*/
 .contact_bg {
-	background-color: var(--dark);
+	background-color: var(--bg-color);
+	margin: 30px;
+	margin-bottom: 90px;
 }
 
 .contact_info {
 	padding-top: 60px;
-	background-color: var(--dark);
+	background-color: var(--bg-color);
 	width: 80%;
 	margin: 0 auto;
 	padding-bottom: 2rem;
@@ -200,12 +224,12 @@ ul.timeline > li:before {
 .jumbotron-fluid {
 	margin: 0 auto;
 	width: 90%;
-	background-color: var(--off-white) !important;
+	background-color: var(--bg-color) !important;
 	border-radius: 10px;
 }
 
 .container {
 	margin: 0 auto;
 	text-align: center;
-	background-color: var(--off-white);
+	background-color: var(--bg-color);
 }
