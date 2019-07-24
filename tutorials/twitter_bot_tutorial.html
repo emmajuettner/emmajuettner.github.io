@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Emma Juettner's Portfolio | Twitter Bot Tutorial</title>
+		<link href="https//fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css"/> 
+		<link href="https//fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet" type="text/css"/> 
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> <!--icons-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="../styles.css"/>
+	</head>
+	
+	<body data-spy="scroll" data-target="#navbar_top" data-offset="0">
+	<a id="home">
+	<!--top nav bar-->
+		<nav id="navbar_top" class="navbar sticky-top navbar-expand-lg navbar-light bg-light navbar-custom">
+		  <a class="navbar-brand" href="..#">Emma Juettner</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link" href="..#home">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="..#projects">Projects</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="../about_me">Experience</a>
+			  </li>
+			  <li class="nav-item mr-auto">
+				<a class="nav-link" href="../tutorials">Tutorials</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="..#contact">Contact</a>
+			  </li>
+			</ul>
+		  </div>
+		</nav>
+	
+	<div class="jumbotron">
+		<p class="lead">Twitter Bot Tutorial</p>
+		<p>Written 10-12-2018 for Lake Forest College CS Club</p>
+		<p>No coding experience required!</br>
+		</br>
+		Intro:</br>
+		</br>
+		Today we'll be making Twitter bots! </br>
+		Bots on Twitter range from being very simple to very complex, 
+		but we're going to make a simple one today so that you can walk out 
+		of here in an hour or so with a finished project. 
+		Once you understand the basics, I encourage you to look up some 
+		more advanced tutorials to see what's possible. Here are just a few 
+		examples of things you can do with Twitter bots, to give you ideas 
+		(some of these are very simple, others are very advanced!):</br>
+		</br>
+		Year Progress Bot: twitter.com/year_progress</br>
+		Would You Rather Bot: twitter.com/WYR_bot</br>
+		Squeegee Bot: twitter.com/squeegeebot</br>
+		*Poem.exe Bot: twitter.com/poem_exe</br>
+		*Feelings Bot: twitter.com/feelings_js</br>
+		Emoji Tetra Bot: twitter.com/EmojiTetra</br>
+		*Mothman Bot: twitter.com/mothmanbot</br>
+		Please Caption Bot: twitter.com/PleaseCaption</br>
+		Poem Translator Bot: twitter.com/poetranslator</br>
+		*Literary Patches Bot: twitter.com/litpatches_txt</br>
+		*Emoji Aquarium Bot: https://twitter.com/EmojiAquarium</br>
+		*Unicode Faces Bot: twitter.com/unicode_faces</br>
+		</br>
+		*bots marked with an asterisk are bots that we could construct with just the information in this tutorial!</br>
+		</br>
+		(Also, a quick note on ethics: Some people use bots for stuff like 
+		harassing people or boosting follower counts. Hopefully this doesn't 
+		have to be said, but those are not the kinds of bots we're making. 
+		Please make sure your bots are well-behaved.)</br>
+		</br>
+		Tools: Tracery, Cheap Bots Done Quick</br>
+		-Tracery: http://tracery.io/</br>
+		-Cheap Bots Done Quick (CBDQ): https://cheapbotsdonequick.com/</br>
+		You don't have to install anything for this tutorial, 
+		it can all be done online!</br>
+		</br>
+		Overview:</br>
+		</br>
+		Tracery is a tool built to do basic text generation, MadLibs-style, 
+		from a list of lists that you create. When you upload your Tracery 
+		code to Cheap Bots Done Quick and connect a Twitter account, 
+		tweets will be generated and posted according to the variables and 
+		lists you create in Tracery and the schedule you set in CBDQ. 
+		You can make your lists as simple or as complex as you like.</br>
+		</br>
+		Tip: the online Tracery editor (tracery.io/editor) has a helpful 
+		visualization tool for keeping track of the parts of your list 
+		and how they work together, so I recommend writing your code there 
+		rather than in another text editor. Also, I use more general terms 
+		in this tutorial like "variable" and "list" rather than using the 
+		official Tracery terms like "ruleset" because in my opinion that 
+		makes the process clearer, especially for beginners. Just FYI, 
+		so that you don't get confused in case you want to look through 
+		some of the other Tracery tutorials that are out there.</br>
+		</br>
+		Tutorial:</br>
+		</br>
+		STEP ONE: Coding with Tracery</br>
+		Start by coming up with a sentence structure that can be varied 
+		with different words (think MadLibs!) and then identify the 
+		different word types you'll need to construct that sentence 
+		(for this tutorial example, I'll make a basic D&D character concept 
+		generator: "My character [name] is a [level] level [race] [class]." 
+		So an example sentence might be "My character Mardred is a 5th level 
+		dwarf bard.") You'll also need to come up with a list of words that 
+		fit each category that you create. (for example, the "class" 
+		category in my example might include "cleric", "fighter", "bard", 
+		"wizard", etc.)</br>
+		</br>
+		In Tracery, you put the name of the list in quotation marks, 
+		followed by a colon, and then put the list items in a set of 
+		brackets, with each item within quotation marks. When you want 
+		to randomly pick an item from another list, use this notation: 
+		#list_name#. Each list should be on a separate line, and should 
+		be followed by a comma (except the last one). The first list is 
+		your main structure, and it should be named "origin". See the 
+		example code below to see this structure in action.</br>
+		</br>
+		Example code:</br>
+		<div class="code-sample">
+		{
+		"origin":["My character #name# is a #level# level #race# #class#."],
+		"name":["Lucretia","Roswell","Davenport","Johann","Sloane","Hurley","Barry"],
+		"level":["1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th"],
+		"race":["elf","dwarf","human","dragonborn","tiefling","halfling","gnome"],
+		"class":["cleric","fighter","wizard","rogue","bard","druid","paladin"]
+		}
+		</div></br>
+		</br>
+		Example output:</br>
+		<div class="code-sample">
+		My character Davenport is a 2nd level tiefling rogue.
+		</div></br>
+		</br>
+		***NOTE*** Tracery is very picky about commas and new lines. 
+		If the output isn't showing up in the editor, go through and 
+		triple check that you have a comma after every list except the 
+		last one, and that each list is on a new line. It's best to write 
+		your code in the online Tracery editor (tracery.io/editor) for this 
+		reason, so that you can catch those kinds of errors as you go.</br>
+		</br>
+		***ANOTHER NOTE*** Technically, this is all you need to make a 
+		functioning bot, so if you're short on time and just want a basic 
+		bot, you can skip to Step Five at this point. Otherwise, stick 
+		around for some techniques that will make your bot a little more 
+		sophisticated.</br>
+		</br>
+		STEP TWO: Saving Variables</br>
+		If you want to use a particular word type twice in your tweet, 
+		and you want both instances of it to match up (i.e. if your 
+		character's name is randomly picked as "Lucretia" the first time, 
+		you want it to still be "Lucretia" the second time), you can use 
+		a variable to pick the word just once and then store it for use 
+		later in the tweet. To store a variable, use this notation: 
+		[variableName:#variableListName#] at the beginning of the "origin" 
+		list (it will not show up in the output when you write it here). 
+		Then, when you want to refer to that variable, use #variableName#.</br>
+		</br>
+		Example Code:</br>
+		<div class="code-sample">
+		{
+		"origin":["[myName:#name#]My character #myName# is a #level# level #race# #class#. #myName# is from #place#."],
+		"name":["Lucretia","Roswell","Davenport","Johann","Sloane","Hurley","Barry"],
+		"level":["1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th"],
+		"race":["elf","dwarf","human","dragonborn","tiefling","halfling","gnome"],
+		"class":["cleric","fighter","wizard","rogue","bard","druid","paladin"],
+		"place":["Neverwinter","Phandalin","Rockport","the Moon","the Felicity Wilds]
+		}
+		</div></br>
+		</br>
+		Example Output:</br>
+		<div class="code-sample">
+		My character Barry is a 9th level gnome cleric. Barry is from Rockport.
+		</div></br>
+		</br>
+		STEP THREE: Modifiers</br>
+		You may want to modify certain variables by capitalizing them, 
+		putting "a" or "an" in front of them, or making them plural or past 
+		tense. You can do that by adding modifiers to the variables; for 
+		example, #name.capitalize# will pick a random item from the "name" 
+		list and capitalize the first letter. You can also create your own 
+		modifiers if you know Javascript, but that's beyond the scope of 
+		this tutorial. Here are some built-in modifiers:</br>
+		#variable.capitalize# (capitalizes first letter of variable)</br>
+		#variable.capitalizeAll# (capitalizes all letters of variable)</br>
+		#variable.a# (adds an "a" or "an" in front of variable)</br>
+		#variable.s# (makes variable plural)</br>
+		#variable.ed# (makes variable past tense)</br>
+		</br>
+		***NOTE*** Some of the modifiers may not work properly with words 
+		that have irregular forms of the past tense/plural/etc.</br>
+		</br>
+		Example Code:</br>
+		<div class="code-sample">
+		{
+		"origin":["[myName:#name#][myClass:#class#]My character #myName# is a #level# level #race# #myClass#. #myClass.capitalize.s# are my favorite class to play as."],
+		"name":["Lucretia","Roswell","Davenport","Johann","Sloane","Hurley","Barry"],
+		"level":["1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th"],
+		"race":["elf","dwarf","human","dragonborn","tiefling","halfling","gnome"],
+		"class":["cleric","fighter","wizard","rogue","bard","druid","paladin"],
+		"place":["Neverwinter","Phandalin","Rockport","the Moon","the Felicity Wilds"]
+		}
+		</div></br>
+		</br>
+		Example Output:</br>
+		<div class="code-sample">
+		My character Johann is a 1st level tiefling bard. Bards are my favorite class to play as.
+		</div></br>
+		</br>
+		STEP FOUR: Varying Your Structure</br>
+		You may want your bot to tweet several variations on your subject. 
+		For instance, in addition to "My character [name] is a [level] 
+		level [race] [class].", perhaps I also want my bot to be able to 
+		generate a full party of characters, like this: "My party is made 
+		up of a [race] [class] named [name], a [race] [class] named [name], 
+		and a [race] [class] named [name]." We can do that by creating a 
+		list of structures for our bot to pick from, the same way we did 
+		with lists of words. Think of it as a MadLib with other MadLibs 
+		nested inside it.</br>
+		</br>
+		Example Code:</br>
+		<div class="code-sample">
+		{
+		"origin":["#line#"],
+		"line":["[myName:#name#][myClass:#class#]My character #myName# is a #level# level #race# #myClass#. #myClass.capitalize.s# are my favorite class to play as.","My party is made up of a #race# #class# named #name#, a #race# #class# named #name#, and a #race# #class# named #name#."],
+		"name":["Lucretia","Roswell","Davenport","Johann","Sloane","Hurley","Barry"],
+		"level":["1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th"],
+		"race":["elf","dwarf","human","dragonborn","tiefling","halfling","gnome"],
+		"class":["cleric","fighter","wizard","rogue","bard","druid","paladin"],
+		"place":["Neverwinter","Phandalin","Rockport","the Moon","the Felicity Wilds"]
+		}
+		</div></br>
+		</br>
+		Example Output:</br>
+		<div class="code-sample">
+		My party is made up of a elf bard named Roswell, a gnome wizard named Lucretia, and a human wizard named Davenport.
+		</div></br>
+		-or-</br>
+		<div class="code-sample">
+		My character Sloane is a 5th level dwarf cleric. Clerics are my favorite class to play as.
+		</div></br>
+		</br>
+		***NOTE*** If you've been able to follow the tutorial up to this 
+		point, congrats! You've learned the basics of Tracery. 
+		For many bots, you only need these tools plus a more expanded set 
+		of word lists and structures. The lists I used were very short, 
+		but you can put far more words in your list for more variety.</br>
+		</br>
+		STEP FIVE: Hosting Your Bot on CBDQ</br>
+		First, create a Twitter account for your bot to tweet from 
+		(https://twitter.com/i/flow/signup). Then go to cheapbotsdonequick.com 
+		and log in with that same Twitter account. Copy and paste your 
+		Tracery code into the box that says Tracery JSON, and set how often 
+		you'd like your bot to tweet. Click save. Congratulations! 
+		You've made a Twitter bot!</br>
+		</br>
+		If you're interested in looking into making Twitter bots 
+		that go beyond what Tracery can do, I recommend visiting this link 
+		for a masterlist of bot resources and tutorials: 
+		https://botwiki.org/resources/twitterbots/</p></br>
+	</div>
+		
+	</body>
+</html>
