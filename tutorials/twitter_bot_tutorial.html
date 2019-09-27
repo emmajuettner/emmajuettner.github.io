@@ -15,7 +15,7 @@
 	</head>
 	
 	<body data-spy="scroll" data-target="#navbar_top" data-offset="0">
-	<a id="home">
+	<a id="tutorials">
 	<!--top nav bar-->
 		<nav id="navbar_top" class="navbar sticky-top navbar-expand-lg navbar-light bg-light navbar-custom">
 		  <a class="navbar-brand" href="..#">Emma Juettner</a>
@@ -35,7 +35,7 @@
 				<a class="nav-link" href="../about_me">Experience</a>
 			  </li>
 			  <li class="nav-item mr-auto">
-				<a class="nav-link" href="../tutorials">Tutorials</a>
+				<a class="nav-link" href="index.html">Tutorials</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="..#contact">Contact</a>
@@ -45,76 +45,71 @@
 		</nav>
 	
 	<div class="jumbotron">
-		<p class="lead">Twitter Bot Tutorial</p>
-		<p>Written 10-12-2018 for Lake Forest College CS Club</p>
+		<a href="index.html">Back to Tutorials</a>
+		</br></br>
+		<h2>Twitter Bot Tutorial</h2>
 		<p>No coding experience required!</br>
 		</br>
-		Intro:</br>
-		</br>
+		<h4>Introduction</h4>
 		Today we'll be making Twitter bots! </br>
 		Bots on Twitter range from being very simple to very complex, 
-		but we're going to make a simple one today so that you can walk out 
-		of here in an hour or so with a finished project. 
+		but this tutorial will teach you just the basics you need to get
+		a bot up and running in an hour or so. 
 		Once you understand the basics, I encourage you to look up some 
 		more advanced tutorials to see what's possible. Here are just a few 
 		examples of things you can do with Twitter bots, to give you ideas 
 		(some of these are very simple, others are very advanced!):</br>
 		</br>
-		Year Progress Bot: twitter.com/year_progress</br>
-		Would You Rather Bot: twitter.com/WYR_bot</br>
-		Squeegee Bot: twitter.com/squeegeebot</br>
-		*Poem.exe Bot: twitter.com/poem_exe</br>
-		*Feelings Bot: twitter.com/feelings_js</br>
-		Emoji Tetra Bot: twitter.com/EmojiTetra</br>
-		*Mothman Bot: twitter.com/mothmanbot</br>
-		Please Caption Bot: twitter.com/PleaseCaption</br>
-		Poem Translator Bot: twitter.com/poetranslator</br>
-		*Literary Patches Bot: twitter.com/litpatches_txt</br>
-		*Emoji Aquarium Bot: https://twitter.com/EmojiAquarium</br>
-		*Unicode Faces Bot: twitter.com/unicode_faces</br>
+		<a href="https://twitter.com/year_progress">Year Progress Bot</a></br>
+		<a href="https://twitter.com/WYR_bot">Would You Rather Bot</a></br>
+		<a href="https://twitter.com/squeegeebot">Squeegee Bot</a></br>
+		<a href="https://twitter.com/poem_exe">*Poem.exe Bot</a></br>
+		<a href="https://twitter.com/feelings_js">*Feelings Bot</a></br>
+		<a href="https://twitter.com/EmojiTetra">Emoji Tetra Bot</a></br>
+		<a href="https://twitter.com/mothmanbot">*Mothman Bot</a></br>
+		<a href="https://twitter.com/PleaseCaption">Please Caption Bot</a></br>
+		<a href="https://twitter.com/poetranslator">Poem Translator Bot</a></br>
+		<a href="https://twitter.com/litpatches_txt">*Literary Patches Bot</a></br>
+		<a href="https://twitter.com/EmojiAquarium">*Emoji Aquarium Bot</a></br>
+		*bots marked with an asterisk are bots that we could construct with just the information in this tutorial</br>
 		</br>
-		*bots marked with an asterisk are bots that we could construct with just the information in this tutorial!</br>
+		And here's some bots that I made myself (again, just using the stuff in this tutorial!):</br>
+		<a href="https://twitter.com/unicode_faces">Unicode Faces Bot</a></br>
+		<a href="https://twitter.com/XFilesPlotBot">X-Files Plot Bot</a></br>
+		<a href="https://twitter.com/cs_club_img_bot">Cat Memes Bot</a></br>
 		</br>
-		(Also, a quick note on ethics: Some people use bots for stuff like 
-		harassing people or boosting follower counts. Hopefully this doesn't 
-		have to be said, but those are not the kinds of bots we're making. 
-		Please make sure your bots are well-behaved.)</br>
-		</br>
-		Tools: Tracery, Cheap Bots Done Quick</br>
-		-Tracery: http://tracery.io/</br>
-		-Cheap Bots Done Quick (CBDQ): https://cheapbotsdonequick.com/</br>
+		<h4>Tools</h4>
+		<a href="http://tracery.io/editor">official Tracery editor</a></br>
+		<a href="http://atduskgreg.github.io/bother/tracery.html">alternate Tracery editor (more beginner-friendly)</a></br>
+		<a href="https://cheapbotsdonequick.com">Cheap Bots Done Quick (CBDQ)</a></br>
 		You don't have to install anything for this tutorial, 
 		it can all be done online!</br>
 		</br>
-		Overview:</br>
-		</br>
+		<h4>Overview</h4>
 		Tracery is a tool built to do basic text generation, MadLibs-style, 
-		from a list of lists that you create. When you upload your Tracery 
+		from a list of lists that you create. (If you're familiar with JSON, 
+		that's what this is, but you don't need to know what JSON is to use 
+		Tracery.) When you upload your Tracery 
 		code to Cheap Bots Done Quick and connect a Twitter account, 
 		tweets will be generated and posted according to the variables and 
 		lists you create in Tracery and the schedule you set in CBDQ. 
 		You can make your lists as simple or as complex as you like.</br>
 		</br>
-		Tip: the online Tracery editor (tracery.io/editor) has a helpful 
+		The <a href="https://tracery.io/editor">online Tracery editor</a> has a helpful 
 		visualization tool for keeping track of the parts of your list 
 		and how they work together, so I recommend writing your code there 
-		rather than in another text editor. Also, I use more general terms 
-		in this tutorial like "variable" and "list" rather than using the 
-		official Tracery terms like "ruleset" because in my opinion that 
-		makes the process clearer, especially for beginners. Just FYI, 
-		so that you don't get confused in case you want to look through 
-		some of the other Tracery tutorials that are out there.</br>
+		rather than in another text editor. Or, you can use the alternate editor
+		linked above-- it has an interface that's easier to understand for beginners.</br>
 		</br>
-		Tutorial:</br>
-		</br>
+		<h4>Tutorial</h4>
 		STEP ONE: Coding with Tracery</br>
 		Start by coming up with a sentence structure that can be varied 
 		with different words (think MadLibs!) and then identify the 
 		different word types you'll need to construct that sentence 
-		(for this tutorial example, I'll make a basic D&D character concept 
-		generator: "My character [name] is a [level] level [race] [class]." 
-		So an example sentence might be "My character Mardred is a 5th level 
-		dwarf bard.") You'll also need to come up with a list of words that 
+		(for this tutorial example, I'll make a basic D&D character 
+		generator: "My character [name] is a [level] level [class]." 
+		So an example sentence might be "My character Mardred is a 5th level
+		bard.") You'll also need to come up with a list of words that 
 		fit each category that you create. (for example, the "class" 
 		category in my example might include "cleric", "fighter", "bard", 
 		"wizard", etc.)</br>
@@ -131,27 +126,30 @@
 		Example code:</br>
 		<div class="code-sample">
 		{
-		"origin":["My character #name# is a #level# level #race# #class#."],
-		"name":["Lucretia","Roswell","Davenport","Johann","Sloane","Hurley","Barry"],
-		"level":["1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th"],
-		"race":["elf","dwarf","human","dragonborn","tiefling","halfling","gnome"],
-		"class":["cleric","fighter","wizard","rogue","bard","druid","paladin"]
+		"origin":["My character #name# is a #level# level #class#."],</br>
+		"name":["Lucretia","Roswell","Davenport","Johann","Sloane","Hurley","Barry"],</br>
+		"level":["1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th"],</br>
+		"class":["cleric","fighter","wizard","rogue","bard","druid","paladin"]</br>
 		}
 		</div></br>
 		</br>
 		Example output:</br>
 		<div class="code-sample">
-		My character Davenport is a 2nd level tiefling rogue.
+		My character Davenport is a 2nd level rogue.
 		</div></br>
 		</br>
-		***NOTE*** Tracery is very picky about commas and new lines. 
+		Important Note: Tracery is very picky about commas and new lines. 
 		If the output isn't showing up in the editor, go through and 
 		triple check that you have a comma after every list except the 
 		last one, and that each list is on a new line. It's best to write 
-		your code in the online Tracery editor (tracery.io/editor) for this 
-		reason, so that you can catch those kinds of errors as you go.</br>
+		your code in the <a href="https://tracery.io/editor">online Tracery editor</a> 
+		for this reason, so that you can catch those kinds of errors as you go.
+		You may also have issues copying and pasting my code directly from
+		this website (I think there's a weird issue with the line breaks breaking the Tracery parser);
+		you'll probably have better luck if you just use my code
+		as a model, and type your own code out in the editor yourself.</br>
 		</br>
-		***ANOTHER NOTE*** Technically, this is all you need to make a 
+		Another Note: Technically, this is all you need to make a 
 		functioning bot, so if you're short on time and just want a basic 
 		bot, you can skip to Step Five at this point. Otherwise, stick 
 		around for some techniques that will make your bot a little more 
@@ -171,18 +169,17 @@
 		Example Code:</br>
 		<div class="code-sample">
 		{
-		"origin":["[myName:#name#]My character #myName# is a #level# level #race# #class#. #myName# is from #place#."],
-		"name":["Lucretia","Roswell","Davenport","Johann","Sloane","Hurley","Barry"],
-		"level":["1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th"],
-		"race":["elf","dwarf","human","dragonborn","tiefling","halfling","gnome"],
-		"class":["cleric","fighter","wizard","rogue","bard","druid","paladin"],
-		"place":["Neverwinter","Phandalin","Rockport","the Moon","the Felicity Wilds]
+		"origin":["[myName:#name#][myClass:#class#]My character #myName# is a #level# level #myClass#. #myClass.capitalize.s# are my favorite class to play as."],</br>
+		"name":["Lucretia","Roswell","Davenport","Johann","Sloane","Hurley","Barry"],</br>
+		"level":["1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th"],</br>
+		"class":["cleric","fighter","wizard","rogue","bard","druid","paladin"],</br>
+		"place":["Neverwinter","Phandalin","Rockport","the Moon","the Felicity Wilds"]</br>
 		}
 		</div></br>
 		</br>
 		Example Output:</br>
 		<div class="code-sample">
-		My character Barry is a 9th level gnome cleric. Barry is from Rockport.
+		My character Barry is a 9th level cleric. Barry is from Rockport.
 		</div></br>
 		</br>
 		STEP THREE: Modifiers</br>
@@ -199,33 +196,32 @@
 		#variable.s# (makes variable plural)</br>
 		#variable.ed# (makes variable past tense)</br>
 		</br>
-		***NOTE*** Some of the modifiers may not work properly with words 
+		Note: Some of the modifiers may not work properly with words 
 		that have irregular forms of the past tense/plural/etc.</br>
 		</br>
 		Example Code:</br>
 		<div class="code-sample">
 		{
-		"origin":["[myName:#name#][myClass:#class#]My character #myName# is a #level# level #race# #myClass#. #myClass.capitalize.s# are my favorite class to play as."],
-		"name":["Lucretia","Roswell","Davenport","Johann","Sloane","Hurley","Barry"],
-		"level":["1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th"],
-		"race":["elf","dwarf","human","dragonborn","tiefling","halfling","gnome"],
-		"class":["cleric","fighter","wizard","rogue","bard","druid","paladin"],
-		"place":["Neverwinter","Phandalin","Rockport","the Moon","the Felicity Wilds"]
+		"origin":["[myName:#name#][myClass:#class#]My character #myName# is a #level# level #myClass#. #myClass.capitalize.s# are my favorite class to play as."],</br>
+		"name":["Lucretia","Roswell","Davenport","Johann","Sloane","Hurley","Barry"],</br>
+		"level":["1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th"],</br>
+		"class":["cleric","fighter","wizard","rogue","bard","druid","paladin"],</br>
+		"place":["Neverwinter","Phandalin","Rockport","the Moon","the Felicity Wilds"]</br>
 		}
 		</div></br>
 		</br>
 		Example Output:</br>
 		<div class="code-sample">
-		My character Johann is a 1st level tiefling bard. Bards are my favorite class to play as.
+		My character Johann is a 1st level bard. Bards are my favorite class to play as.
 		</div></br>
 		</br>
 		STEP FOUR: Varying Your Structure</br>
 		You may want your bot to tweet several variations on your subject. 
 		For instance, in addition to "My character [name] is a [level] 
-		level [race] [class].", perhaps I also want my bot to be able to 
+		level [class].", perhaps I also want my bot to be able to 
 		generate a full party of characters, like this: "My party is made 
-		up of a [race] [class] named [name], a [race] [class] named [name], 
-		and a [race] [class] named [name]." We can do that by creating a 
+		up of a [class] named [name], a [class] named [name], 
+		and a [class] named [name]." We can do that by creating a 
 		list of structures for our bot to pick from, the same way we did 
 		with lists of words. Think of it as a MadLib with other MadLibs 
 		nested inside it.</br>
@@ -234,42 +230,81 @@
 		<div class="code-sample">
 		{
 		"origin":["#line#"],
-		"line":["[myName:#name#][myClass:#class#]My character #myName# is a #level# level #race# #myClass#. #myClass.capitalize.s# are my favorite class to play as.","My party is made up of a #race# #class# named #name#, a #race# #class# named #name#, and a #race# #class# named #name#."],
-		"name":["Lucretia","Roswell","Davenport","Johann","Sloane","Hurley","Barry"],
-		"level":["1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th"],
-		"race":["elf","dwarf","human","dragonborn","tiefling","halfling","gnome"],
-		"class":["cleric","fighter","wizard","rogue","bard","druid","paladin"],
-		"place":["Neverwinter","Phandalin","Rockport","the Moon","the Felicity Wilds"]
+		"line":["[myName:#name#][myClass:#class#]My character #myName# is a #level# level #myClass#. #myClass.capitalize.s# are my favorite class to play as.","My party is made up of a #class# named #name#, a #class# named #name#, and a #class# named #name#."],</br>
+		"name":["Lucretia","Roswell","Davenport","Johann","Sloane","Hurley","Barry"],</br>
+		"level":["1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th"],</br>
+		"class":["cleric","fighter","wizard","rogue","bard","druid","paladin"],</br>
+		"place":["Neverwinter","Phandalin","Rockport","the Moon","the Felicity Wilds"]</br>
 		}
 		</div></br>
 		</br>
 		Example Output:</br>
 		<div class="code-sample">
-		My party is made up of a elf bard named Roswell, a gnome wizard named Lucretia, and a human wizard named Davenport.
-		</div></br>
-		-or-</br>
+		My party is made up of a bard named Roswell, a wizard named Lucretia, and a wizard named Davenport.
+		</div>
+		or</br>
 		<div class="code-sample">
-		My character Sloane is a 5th level dwarf cleric. Clerics are my favorite class to play as.
+		My character Sloane is a 5th level cleric. Clerics are my favorite class to play as.
 		</div></br>
 		</br>
-		***NOTE*** If you've been able to follow the tutorial up to this 
+		If you've been able to follow the tutorial up to this 
 		point, congrats! You've learned the basics of Tracery. 
 		For many bots, you only need these tools plus a more expanded set 
 		of word lists and structures. The lists I used were very short, 
 		but you can put far more words in your list for more variety.</br>
 		</br>
 		STEP FIVE: Hosting Your Bot on CBDQ</br>
-		First, create a Twitter account for your bot to tweet from 
-		(https://twitter.com/i/flow/signup). Then go to cheapbotsdonequick.com 
+		First, <a href="https://twitter.ocm/i/flow/signup">create 
+		a Twitter account</a> for your bot to tweet from.
+		Then go to <a href="https://cheapbotsdonequick.com">Cheap Bots Done Quick</a> 
 		and log in with that same Twitter account. Copy and paste your 
 		Tracery code into the box that says Tracery JSON, and set how often 
 		you'd like your bot to tweet. Click save. Congratulations! 
 		You've made a Twitter bot!</br>
 		</br>
 		If you're interested in looking into making Twitter bots 
-		that go beyond what Tracery can do, I recommend visiting this link 
-		for a masterlist of bot resources and tutorials: 
-		https://botwiki.org/resources/twitterbots/</p></br>
+		that go beyond what Tracery can do, I recommend visiting 
+		<a href="https://botwiki.org/resources/twitterbots/">Botwiki</a>
+		for a masterlist of bot resources and tutorials.</p>
+		</br>
+		(This is as far as we got in the original CS Club Twitter bots tutorial.
+		Read on for new and exciting information!)</br>
+		</br>
+		<h4>Generating Images</h4>
+		Not only can you generate text with Tracery, you can also create
+		images! I'll show two different ways to go about doing this, but
+		both of them use SVGs (Scalable Vector Graphics). Here's a
+		Tracery ruleset that generates an SVG with a red background and
+		circles with randomly generated size, position, and color. (You'll
+		have to delete the extra space in front of the "svg" and "circle"
+		tags-- I had to insert those to get them to display here as text,
+		but you don't want those spaces in the actual Tracery code.)</br>
+		<div class="code-sample">
+		{
+"origin":["hello world{svg < svg width=\"100\" height=\"100\" style=\"background-color: red;\">#circles#</ svg>}"],
+"circles":["#star2##star2##star2##star2##star2##star2#"],
+"star2":["< circle fill='\\##color##color##color#' cx='#place#' cy='#place#' r='1#digit#'>< /circle>"],
+"place":["#digit##digit#"],
+"digit":["1","2","3","4","5","6","7","8","9","0"],
+"color":["00","11","22","33","44","55","66","77","88","99","AA","BB","CC","DD","EE","FF"]
+}
+		</div></br>
+		The "hello world" would be the caption of the tweet, and the {svg} part would be the attached image. When working with images, it can sometimes be easier to just work with the CBDQ editor, since it displays the image a little more clearly.</br>
+		</br>
+		There's lots more you can do with SVGs and Tracery. Try looking at <a href="https://www.w3schools.com/graphics/svg_reference.asp">the W3Schools page</a> to find more attributes you can adjust.</br>
+		</br>
+		To close out this tutorial, I'll show you one more cool trick:
+		importing pictures. Here's <a href="https://cheapbotsdonequick.com/source/cs_club_img_bot">
+		a link</a> to the Tracery source code for my cat memes bot, as an example. (You should be able to copy and paste from there without
+		the extra spaces issue.)
+		And here's an example of the output image:</br>
+		<img src="../images/cat_meme.png" alt="a brown and white cat, captioned 'a beautiful lady'"/></br>
+		</br>
+		I won't get into as much detail about this example, since you should be able to figure out what a lot of it means now that you're somewhat comfortable with Tracery syntax, but I'll note a few things here and explain further at the tutorial meeting:</br>
+		-the xmlns:xlink stuff is necessary for linking to an image</br>
+		-I imported a Google Font for the text on the image, using an @import statement</br>
+		-I also linked to a bunch of cat pics that I uploaded to my account on the CSCI server, and Tracery randomly selects from those.</br>
+		That's where we'll wrap up for this tutorial. Now you have all the basic skills to start making bots. There's many other tools out there if you want to get really advanced, and I encourage you to explore them!
 	</div>
 		
 	</body>
