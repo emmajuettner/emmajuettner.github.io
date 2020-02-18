@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-02-18T14:00:08-06:00</updated><id>/feed.xml</id><entry><title type="html">Tutorial - Tracery Twitter Bots</title><link href="/2020/02/14/tracery_twitter_bot_tutorial.html" rel="alternate" type="text/html" title="Tutorial - Tracery Twitter Bots" /><published>2020-02-14T00:00:00-06:00</published><updated>2020-02-14T00:00:00-06:00</updated><id>/2020/02/14/tracery_twitter_bot_tutorial</id><content type="html" xml:base="/2020/02/14/tracery_twitter_bot_tutorial.html">&lt;p&gt;This tutorial teaches the basics of making generative Twitter bots using Tracery and Cheap Bots Done Quick. Originally presented at Lake Forest College Computer Science Club in 2019.
+[No Coding Experience Required!]&lt;/p&gt;
+
+&lt;h3 id=&quot;what-are-twitter-bots&quot;&gt;What are Twitter bots?&lt;/h3&gt;
+&lt;p&gt;Bots on Twitter range from very simple to very complex. They can generate stories, poems, pieces of art, jokes, and more. If you want to learn more about the many types of bots out there, a good resource is &lt;a href=&quot;https://botwiki.org/&quot;&gt;Botwiki&lt;/a&gt;, which collects examples of bots along with tutorials, essays, and other resources. For this tutorial, we’ll focus on bots made with Tracery, a generative tool that’s easy for beginners to pick up. Here are a few examples of bots I’ve made with Tracery:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/unicode_faces&quot;&gt;@unicode_faces&lt;/a&gt; - a bot that makes faces using Unicode characters&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/XFilesPlotBot&quot;&gt;@XFilesPlotBot&lt;/a&gt; - a bot that comes up with new &lt;em&gt;X Files&lt;/em&gt; plots&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/cs_club_img_bot&quot;&gt;@cs_club_img_bot&lt;/a&gt; - a bot that tweets captioned images of my family’s cat&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tools&quot;&gt;Tools&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tracery.io&quot;&gt;Tracery&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cheapbotsdonequick.com&quot;&gt;Cheap Bots Done Quick (CBDQ)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You don’t have to install anything for this tutorial. It can all be done online!&lt;/p&gt;
+
+&lt;h3 id=&quot;tracery-overview&quot;&gt;Tracery Overview&lt;/h3&gt;
+&lt;p&gt;Tracery is a tool built for doing basic text generation, MadLibs-style, from a list of lists that you create. (If you’re familiar with JSON, that’s what this is, but you don’t need to know what JSON is to use Tracery.) When you paste your Tracery code into Cheap Bots Done Quick and connect a Twitter account, CBDQ will automatically start generating tweets from your Tracery lists and posting them to Twitter on a schedule that you set. You can make your Tracery code as complex as you like, so there’s a lot of room to be creative.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://tracery.io/editor&quot;&gt;online Tracery editor&lt;/a&gt; has a helpful visualization tool for keeping track of the parts of your list and how they work together, so I recommend writing your code there rather than in another text editor. Alternately, you can use &lt;a href=&quot;https://atduskgreg.github.io/bother/tracery.html&quot;&gt;this alternate editor&lt;/a&gt;, which may be slightly easier to understand for beginners.&lt;/p&gt;
+
+&lt;h3 id=&quot;tracery-syntax&quot;&gt;Tracery Syntax&lt;/h3&gt;
+&lt;p&gt;Start by coming up with a sentence structure that can be varied with different words (think MadLibs!) and then identify the different word types you’ll need to construct that sentence. For this tutorial, I’ll generate some mystery story plot concepts. My basic sentence structure will be:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;A [detective] investigates a [crime] in [location].&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This structure could generate sentences such as ‘A little old lady investigates a murder in a quiet English village.’ or ‘A no-nonsense sheriff investigates a theft in a Western saloon.’ We’ll need to make lists of words to choose from for each of the fill-in-the-blank spots in the original sentence structure. Our lists for this example might be:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;detective: &quot;little old lady&quot;, &quot;no-nonsense sheriff&quot;, &quot;hard-boiled private eye&quot;
+crime: &quot;murder&quot;, &quot;theft&quot;, &quot;kidnapping&quot;
+location: &quot;a quiet English village&quot;, &quot;a Western saloon&quot;, &quot;a space station&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In Tracery, you put the name of the list in quotation marks, followed by a colon, and then put the list items in a set of brackets, with each item within quotation marks. When you want to randomly pick an item from another list, use this notation: &lt;span class=&quot;code-inline&quot;&gt;#list_name#&lt;/span&gt;. Each list should be on a separate line, and should be followed by a comma (except the last one). The first list is your main structure, and it should be named ‘origin’. Take a look at the example code below to see this structure in action.&lt;/p&gt;
+
+&lt;p&gt;Example code:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;origin&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;A #detective# investigates a #crime# in #location#.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;detective&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;little old lady&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;no-nonsense sheriff&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hard-boiled private eye&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;crime&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;murder&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;theft&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;kidnapping&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;location&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a quiet English village&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a Western saloon&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a space station&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Example output:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;A no-nonsense sheriff investigates a kidnapping in a quiet English village.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Important note&lt;/strong&gt;: Tracery is very picky about commas and new lines. If the output isn’t showing up correctly in the editor, go through and triple check that you have a comma after every list except the last one, that each list is on a new line, and that all your quotation marks are in the right places. Writing your code directly in the &lt;a href=&quot;https://tracery.io/editor&quot;&gt;online Tracery editor&lt;/a&gt; helps with this, since the output on the right will update as you type so that you can catch errors as you go.&lt;/p&gt;
+
+&lt;p&gt;You also may have issues when copying and pasting code from other websites. If so, the issue can often be resolved by typing the code out by hand into the editor.&lt;/p&gt;
+
+&lt;h3 id=&quot;saving-variables&quot;&gt;Saving Variables&lt;/h3&gt;
+&lt;p&gt;At this point we’ve covered everything you need to make a very basic bot. But we can add a little more sophistication by saving variables for use later in the sentence, rather than selecting every word randomly. To store a variable, use this notation: &lt;span class=&quot;code-inline&quot;&gt;[variableName:#variableListName#]&lt;/span&gt; at the beginning of the ‘origin’ list. This will not show up in the output, but it will randomly pick an item from variableListName and save it to variableName. Then, when you want to refer to that variable, use #variableName#.&lt;/p&gt;
+
+&lt;p&gt;Example Code:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;origin&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;[myName:#name#]A #detective# named #myName# investigates a #crime# in #location#. #myName# must solve the case before #event#!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;detective&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;little old lady&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;no-nonsense sheriff&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hard-boiled private eye&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;crime&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;murder&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;theft&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;kidnapping&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;location&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a quiet English village&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a Western saloon&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a space station&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Sam&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Terry&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Max&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;event&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a bomb explodes&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;the criminal strikes again&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;the world ends&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Example Output:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;A hard-boiled private eye named Terry investigates a theft in a space station. Terry must solve the case before the world ends!&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;modifiers&quot;&gt;Modifiers&lt;/h3&gt;
+&lt;p&gt;You may want to modify certain variables by capitalizing them, putting ‘a’ or ‘an’ in front of them, or making them plural or past tense. You can do that by adding modifiers to the variables; for example, &lt;span class=&quot;code-block&quot;&gt;#name.capitalize#&lt;/span&gt; will pick a random item from the ‘name’ list and capitalize the first letter. You can also create your own modifiers if you know Javascript, but that’s beyond the scope of this tutorial. Here are some built-in modifiers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;span class=&quot;code-block&quot;&gt;#variable.capitalize#&lt;/span&gt; capitalizes the first letter of variable&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;code-block&quot;&gt;#variable.capitalizeAll#&lt;/span&gt; capitalizes all letters of variable&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;code-block&quot;&gt;#variable.a#&lt;/span&gt; adds an ‘a’ or ‘an’ in front of variable&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;code-block&quot;&gt;#variable.s#&lt;/span&gt; makes variable plural&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;code-block&quot;&gt;#variable.ed#&lt;/span&gt; makes variable past tense&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note: Some of the modifiers may not work properly with words that have irregular froms of the past tense/plural/etc, or if you are creating a bot in a language other than English.&lt;/p&gt;
+
+&lt;p&gt;Example Code:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;origin&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;[myName:#name#]A #detective# named #myName# investigates #crime.a# in #location#. #myName# must solve the case before #event#!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;detective&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;little old lady&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;no-nonsense sheriff&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hard-boiled private eye&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;crime&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;murder&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;theft&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;kidnapping&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;location&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a quiet English village&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a Western saloon&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a space station&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Sam&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Terry&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Max&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;event&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a bomb explodes&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;the criminal strikes again&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;the world ends&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Example Output:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;A hard-boiled private eye named Terry investigates a theft in a space station. Terry must solve the case before the world ends!&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;varying-structure&quot;&gt;Varying Structure&lt;/h3&gt;
+&lt;p&gt;You may want your bot to tweet several variations on your subject. For instance, in addition to ‘A [detective] named [name] investigates a [crime] in [location]. [name] must solve the case before [event]!’, you might include a structure like ‘When a [crime] occurs in [location], #name# doesn’t want to take the case. But things get personal when #event#.’ We can do that by creating a list of structures for our bot to pick from, the same way we did with lists of words. Think of it as a MadLib with other MadLibs nested inside it.&lt;/p&gt;
+
+&lt;p&gt;Example Code:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;origin&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;[myName:#name#]A #detective# named #myName# investigates #crime.a# in #location#. #myName# must solve the case before #event#!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;When a #crime# occurs in #location#, #name# doesn't want to take the case. But things get personal when #event#.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;detective&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;little old lady&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;no-nonsense sheriff&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hard-boiled private eye&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;crime&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;murder&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;theft&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;kidnapping&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;location&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a quiet English village&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a Western saloon&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a space station&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Sam&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Terry&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Max&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;event&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a bomb explodes&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;the criminal strikes again&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;the world ends&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This will choose one of the sentence formats randomly, and populates words randomly from the lists.&lt;/p&gt;
+
+&lt;h3 id=&quot;hosting-your-bot&quot;&gt;Hosting Your Bot&lt;/h3&gt;
+&lt;p&gt;At this point, you’ve learned everything necessary to make a text bot using Tracery. You can add more and more lists with more and more items to create fairly complex bots, using just the techniques in this post. When you’re ready to put your bot onto Twitter, you can move on to this step. (Note: you can also edit your code later, after uploading it to CBDQ.)&lt;/p&gt;</content><author><name>Emma Juettner</name></author><summary type="html">This tutorial teaches the basics of making generative Twitter bots using Tracery and Cheap Bots Done Quick.</summary></entry></feed>

@@ -1,0 +1,78 @@
+/*Imported fonts*/
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+/*
+Fonts:
+Inconsolata for code blocks
+Lato for regular text
+*/
+/*Main styles*/
+@import url(manni.css);
+:root { --accent-color: #1FABF6; /*bright blue*/ --bg-color: white; --dark-font: black; --light-font: white; --off-white: #BBBBBB; }
+
+body { background-color: var(--bg-color); font-family: "Lato", sans-serif; margin: 0px; position: relative; width: 100%; }
+
+h1 { text-align: center; }
+
+.btn { background-color: var(--accent-color) !important; border-color: var(--accent-color) !important; color: var(--bg-color); }
+
+.btn:hover { background-color: var(--bg-color) !important; color: var(--accent-color) !important; }
+
+.badge { background-color: var(--accent-color); }
+
+.section_header { margin: 0 auto; margin-bottom: 20px; color: var(--accent-color); }
+
+.navbar-custom { background-color: var(--bg-color) !important; }
+
+.navbar-brand { font-weight: bold; color: var(--accent-color) !important; }
+
+.navbar_top a { float: left; display: block; }
+
+.navbar-custom .nav-item { border-bottom: 3px solid var(--bg-color); }
+
+.navbar-custom .nav-item a:hover { border-bottom: 3px solid var(--accent-color); }
+
+.navbar-custom .nav-item a.active { border-bottom: 3px solid var(--accent-color); }
+
+/*Homepage Jumbotron*/
+.home_jumbotron { padding-top: 2rem; padding-bottom: 1rem; background-color: var(--bg-color); }
+
+.jumbotron { width: 80%; margin: auto; background-color: var(--bg-color) !important; }
+
+.jumbotron-buttons { text-align: center; }
+
+.jumbotron-img { width: 150px; border-radius: 50%; margin: auto; display: block; }
+
+.text-link { color: var(--accent-color); }
+
+/*Contact Info*/
+.contact_bg { background-color: var(--bg-color); margin: 30px; margin-bottom: 90px; }
+
+.contact_info { padding-top: 60px; background-color: var(--bg-color); width: 80%; margin: 0 auto; padding-bottom: 2rem; }
+
+.jumbotron-fluid { margin: 0 auto; width: 90%; background-color: var(--bg-color) !important; border-radius: 10px; }
+
+.container { margin: 0 auto; text-align: center; background-color: var(--bg-color); }
+
+/*styles for code snippets*/
+.code-block { font-family: Inconsolata; background-color: #EEEEEE; padding: 5px; border-radius: 2px; margin: 2px; width: 90%; margin: auto; }
+
+.code-inline { font-family: Inconsolata; background-color: #EEEEEE; border-radius: 2px; padding: 2px; }
+
+/*new styles*/
+/*About Me*/
+.icon { border-radius: 50%; min-width: 100px; image-orientation: from-image; float: left; margin: 2%; }
+
+/*Featured lists for homepage*/
+.featured-list-container { width: 80%; margin: auto; }
+
+.featured-list-item { border: 1px solid var(--off-white); padding: 1em; border-radius: 5px; margin-bottom: 10px; }
+
+.featured-list-item h6 { color: var(--off-white); }
+
+.featured-list-item p { margin: 0px; padding: 0px; }
+
+/*Tutorials*/
+.posts-container { width: 80%; margin: auto; }
+
+/*# sourceMappingURL=styles.css.map */
