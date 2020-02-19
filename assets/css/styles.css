@@ -63,6 +63,8 @@ h1 { text-align: center; }
 /*About Me*/
 .icon { border-radius: 50%; min-width: 100px; image-orientation: from-image; float: left; margin: 2%; }
 
+.about-jumbotron { display: flex; align-items: center; }
+
 /*Featured lists for homepage*/
 .featured-list-container { width: 80%; margin: auto; }
 
@@ -74,5 +76,9 @@ h1 { text-align: center; }
 
 /*Tutorials*/
 .posts-container { width: 80%; margin: auto; }
+
+/*Mobile Styles*/
+@media only screen and (max-width: 500px) { .about-jumbotron { display: inline; align-items: center; }
+  .icon { max-width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
