@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-02-19T09:28:19-06:00</updated><id>/feed.xml</id><entry><title type="html">Tutorial - Tracery Twitter Bots</title><link href="/2020/02/14/tracery_twitter_bot_tutorial.html" rel="alternate" type="text/html" title="Tutorial - Tracery Twitter Bots" /><published>2020-02-14T00:00:00-06:00</published><updated>2020-02-14T00:00:00-06:00</updated><id>/2020/02/14/tracery_twitter_bot_tutorial</id><content type="html" xml:base="/2020/02/14/tracery_twitter_bot_tutorial.html">&lt;p&gt;This tutorial teaches the basics of making generative Twitter bots using Tracery and Cheap Bots Done Quick. Originally presented at Lake Forest College Computer Science Club in 2019.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-02-20T14:05:10-06:00</updated><id>/feed.xml</id><entry><title type="html">Tracery Twitter Bots Tutorial</title><link href="/2020/02/14/tracery_twitter_bot_tutorial.html" rel="alternate" type="text/html" title="Tracery Twitter Bots Tutorial" /><published>2020-02-14T00:00:00-06:00</published><updated>2020-02-14T00:00:00-06:00</updated><id>/2020/02/14/tracery_twitter_bot_tutorial</id><content type="html" xml:base="/2020/02/14/tracery_twitter_bot_tutorial.html">&lt;p&gt;This tutorial teaches the basics of making generative Twitter bots using Tracery and Cheap Bots Done Quick. Originally presented at Lake Forest College Computer Science Club in 2019.
 [No Coding Experience Required!]&lt;/p&gt;
 
 &lt;h3 id=&quot;what-are-twitter-bots&quot;&gt;What are Twitter bots?&lt;/h3&gt;
@@ -116,4 +116,34 @@ location: &quot;a quiet English village&quot;, &quot;a Western saloon&quot;, &qu
 &lt;p&gt;This will choose one of the sentence formats randomly, and populates words randomly from the lists.&lt;/p&gt;
 
 &lt;h3 id=&quot;hosting-your-bot&quot;&gt;Hosting Your Bot&lt;/h3&gt;
-&lt;p&gt;At this point, you’ve learned everything necessary to make a text bot using Tracery. You can add more and more lists with more and more items to create fairly complex bots, using just the techniques in this post. When you’re ready to put your bot onto Twitter, you can move on to this step. (Note: you can also edit your code later, after uploading it to CBDQ.)&lt;/p&gt;</content><author><name>Emma Juettner</name></author><summary type="html">This tutorial teaches the basics of making generative Twitter bots using Tracery and Cheap Bots Done Quick.</summary></entry></feed>
+&lt;p&gt;At this point, you’ve learned everything necessary to make a text bot using Tracery. You can add more and more lists with more and more items to create fairly complex bots, using just the techniques in this post. When you’re ready to put your bot onto Twitter, you can move on to this step. (Note: you can also edit your code later, after uploading it to CBDQ.)&lt;/p&gt;</content><author><name>Emma Juettner</name></author><summary type="html">This tutorial teaches the basics of making generative Twitter bots using Tracery and Cheap Bots Done Quick.</summary></entry><entry><title type="html">Piet Tutorial</title><link href="/2019/04/19/piet_tutorial.html" rel="alternate" type="text/html" title="Piet Tutorial" /><published>2019-04-19T00:00:00-05:00</published><updated>2019-04-19T00:00:00-05:00</updated><id>/2019/04/19/piet_tutorial</id><content type="html" xml:base="/2019/04/19/piet_tutorial.html">&lt;p&gt;Hi all! Today we’ll be looking at an esoteric programming language called Piet. Esoteric programming languages are languages where the concept or aesthetic of the language is usually more important than the actual functionality or usability (some examples of esoteric languages that we’ve done past CS Club tutorials on are &lt;a href=&quot;http://www.lolcode.org/&quot;&gt;LOLCODE&lt;/a&gt; and &lt;a href=&quot;https://esolangs.org/wiki/Brainfuck&quot;&gt;Brainfuck&lt;/a&gt;). No programming experience is required for this tutorial, although it will be easier if you have an understanding of how a stack works.&lt;/p&gt;
+
+&lt;p&gt;Piet is pretty unique in that the program is an image. Literally, you write code by placing pixels of color on a canvas. It’s inspired by the works of Piet Mondrian, who was famous for his paintings involving blocks of bright color. Today we’ll be learning the basics of Piet!&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources:&lt;/h2&gt;
+
+&lt;p&gt;1) A &lt;a href=&quot;http://www.dangermouse.net/esoteric/piet.html&quot;&gt;good intro&lt;/a&gt; to the language written by its creator; it explains how the syntax works and has links to some examples&lt;/p&gt;
+
+&lt;p&gt;2) An &lt;a href=&quot;https://gabriellesc.github.io/piet/&quot;&gt;online editor&lt;/a&gt; for Piet&lt;/p&gt;
+
+&lt;p&gt;3) An &lt;a href=&quot;https://www.ascii-code.com&quot;&gt;ASCII table&lt;/a&gt; to help you print out characters&lt;/p&gt;
+
+&lt;p&gt;Let’s start out by making our first program! Because of the way Piet works, there’s a lot of different ways to implement any given program (you can see some different examples of fancy Hello World programs in the first link above). I’ll show a very simple example program, but see if you can create your own variations!&lt;/p&gt;
+
+&lt;p&gt;Before we start, you’ll need to be familiar with what a stack is. If you aren’t familiar with this term, think about a stack of books on a table; you can put more books on the top, and take books off the top, but you can’t access books in the middle of the stack. That’s how a stack works in computer programming, too. We “push” things onto the top of the stack, and “pop” them off when we want to use them, but we’re always accessing the item at the top of the stack.&lt;/p&gt;
+
+&lt;p&gt;I started by listing out the instructions I wanted to perform. Let’s say I want to print “Hi”. These are the ASCII values I want to print out: 72 105 (you can find these values in the ASCII table linked above). So I need to write a series of instructions that will get me those numbers and then print them out as characters (again, there’s more than one way to do this). To start, I’ll write this in pseudocode, not an actual Piet program. Here’s what I came up with:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;push 72
+out(char)
+push 105
+push 1
+pointer&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now we need to translate those instructions into pixels (or &lt;strong&gt;codels&lt;/strong&gt;, as Piet calls them). The integers are represented by the number of codels in a particular block of color, and the commands are represented by changes of color. Read the first link above for a detailed explanation and list of commands.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hi_program.png&quot; alt=&quot;a piet program&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see my program in the above image. Try running it for yourself! There are some codels that I just filled in more or less randomly, since they weren’t needed for the program.) See if you can understand how it works, and then try to make a full Hello World program on your own. Make sure to test your program frequently; it’s easy to get mixed up with this language. If you’re having trouble figuring out how the program flows from one codel to the next, start out by making a program that just goes from left to right. If you want more of a challenge, try designing a program that actually forms a picture of something!&lt;/p&gt;
+
+&lt;p&gt;That’s all for today! Have fun experimenting with Piet!&lt;/p&gt;</content><author><name>Emma Juettner</name></author><summary type="html">This tutorial will get you started programming with Piet, an esoteric and visually striking programming language.</summary></entry></feed>
