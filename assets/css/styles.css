@@ -45,6 +45,9 @@ h1 { text-align: center; }
 
 .text-link { color: var(--accent-color); }
 
+/*Adjusting External Icon Styles*/
+.devicon-span { font-size: 30px; float: right; padding-left: 5px; }
+
 /*Contact Info*/
 .contact_bg { background-color: var(--bg-color); margin: 30px; margin-bottom: 90px; }
 
