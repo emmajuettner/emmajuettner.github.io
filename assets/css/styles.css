@@ -1,87 +1,65 @@
-/*Imported fonts*/
-@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
-/*
-Fonts:
-Inconsolata for code blocks
-Lato for regular text
-*/
-/*Main styles*/
-@import url(manni.css);
-:root { --accent-color: #1FABF6; /*bright blue*/ --bg-color: white; --dark-font: black; --light-font: white; --off-white: #BBBBBB; }
+/* Body Styles */
+@import url(monokai.css);
+body { font-family: sans-serif; background-color: #FEF2D8; line-height: 1.4em; padding-left: 5%; padding-right: 5%; padding-top: 1em; font-size: 16px; }
 
-body { background-color: var(--bg-color); font-family: "Lato", sans-serif; margin: 0px; position: relative; width: 100%; }
+h2 { line-height: 1.2em; }
 
-h1 { text-align: center; }
+a { padding: 1px 1px 0; text-decoration: none; }
 
-.btn { background-color: var(--accent-color) !important; border-color: var(--accent-color) !important; color: var(--bg-color); }
+a:link { color: #B0131D; }
 
-.btn:hover { background-color: var(--bg-color) !important; color: var(--accent-color) !important; }
+a:visited { color: #B0131D; }
 
-.badge { background-color: var(--accent-color); }
+a:focus { border-bottom: 2px solid #B0131D; background-color: #FFD3CD; }
 
-.section_header { margin: 0 auto; margin-bottom: 20px; color: var(--accent-color); }
+a:hover { border-bottom: 2px solid #B0131D; background-color: #FFD3CD; }
 
-.navbar-custom { background-color: var(--bg-color) !important; }
+.active { border-bottom: 2px solid; }
 
-.navbar-brand { font-weight: bold; color: var(--accent-color) !important; }
+/* Navbar Styles */
+nav { padding-bottom: 1em; font-size: 1.1em; }
 
-.navbar_top a { float: left; display: block; }
+nav a { margin-right: 0.5em; }
 
-.navbar-custom .nav-item { border-bottom: 3px solid var(--bg-color); }
+/* Footer Styles */
+footer { text-align: center; padding-top: 2em; }
 
-.navbar-custom .nav-item a:hover { border-bottom: 3px solid var(--accent-color); }
+/* Main Block Styles */
+main { background-color: white; border: 3px solid #F0535D; border-radius: 2px; box-shadow: 7px 7px #E0D0C0; max-width: 45em; margin: 2em auto 2em auto; padding: 0em 2em 2em 2em; overflow: auto; /*to accomodate floating divs*/ }
 
-.navbar-custom .nav-item a.active { border-bottom: 3px solid var(--accent-color); }
+main hr { border: 2px solid #F0535D; }
 
-/*Homepage Jumbotron*/
-.home_jumbotron { padding-top: 2rem; padding-bottom: 1rem; background-color: var(--bg-color); }
+main h1 { text-align: center; }
 
-.jumbotron { width: 80%; margin: auto; background-color: var(--bg-color) !important; }
+main a { padding: 1px 1px 0; text-decoration: none; }
 
-.jumbotron-buttons { text-align: center; }
+main a:link { color: #0060CC; border-bottom: 2px solid; }
 
-.jumbotron-img { width: 150px; border-radius: 50%; margin: auto; display: block; }
+main a:visited { color: #064A8C; }
 
-.text-link { color: var(--accent-color); }
+main a:focus { border-bottom: 2px solid #064A8C; background-color: #99E9FF; color: #064A8C; }
 
-/*Adjusting External Icon Styles*/
-.devicon-span { font-size: 30px; float: right; padding-left: 5px; }
+main a:hover { border-bottom: 2px solid #064A8C; background-color: #99E9FF; color: #064A8C; }
 
-/*Contact Info*/
-.contact_bg { background-color: var(--bg-color); margin: 30px; margin-bottom: 90px; }
+/* About Styles */
+.about-img { float: left; width: 30%; padding-top: 1em; }
 
-.contact_info { padding-top: 60px; background-color: var(--bg-color); width: 80%; margin: 0 auto; padding-bottom: 2rem; }
+.about-text { float: left; width: 65%; margin-left: 5%; }
 
-.jumbotron-fluid { margin: 0 auto; width: 90%; background-color: var(--bg-color) !important; border-radius: 10px; }
+/* Project Styles */
+.devicon-span { float: right; }
 
-.container { margin: 0 auto; text-align: center; background-color: var(--bg-color); }
+.project { padding-left: 3em; padding-bottom: 1em; }
 
-/*styles for code snippets*/
-.code-block { font-family: Inconsolata; background-color: #EEEEEE; padding: 5px; border-radius: 2px; margin: 2px; width: 90%; margin: auto; }
+/* Code Highlighting */
+.highlight pre { overflow: auto; font-size: 14px; }
 
-.code-inline { font-family: Inconsolata; background-color: #EEEEEE; border-radius: 2px; padding: 2px; }
+.code-inline { font-family: monospace; color: #B0131D; font-size: 14px; }
 
-/*new styles*/
-/*About Me*/
-.icon { border-radius: 50%; min-width: 100px; image-orientation: from-image; float: left; margin: 2%; }
+/* Mobile Styles */
+@media only screen and (max-width: 600px) { .about-img { width: 50%; float: none; display: block; margin: auto; padding-top: 0; }
+  .about-text { width: 100%; float: none; margin: auto; } }
 
-.about-jumbotron { display: flex; align-items: center; }
-
-/*Featured lists for homepage*/
-.featured-list-container { width: 80%; margin: auto; }
-
-.featured-list-item { border: 1px solid var(--off-white); padding: 1em; border-radius: 5px; margin-bottom: 10px; }
-
-.featured-list-item h6 { color: var(--off-white); }
-
-.featured-list-item p { margin: 0px; padding: 0px; }
-
-/*Tutorials*/
-.posts-container { width: 80%; margin: auto; }
-
-/*Mobile Styles*/
-@media only screen and (max-width: 500px) { .about-jumbotron { display: inline; align-items: center; }
-  .icon { max-width: 100%; } }
+/*pygments syntax highlighting*/
 
 /*# sourceMappingURL=styles.css.map */

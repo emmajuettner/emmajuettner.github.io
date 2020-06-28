@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-05-30T23:22:52-05:00</updated><id>/feed.xml</id><entry><title type="html">Tracery Twitter Bots Tutorial</title><link href="/2020/02/14/tracery_twitter_bot_tutorial.html" rel="alternate" type="text/html" title="Tracery Twitter Bots Tutorial" /><published>2020-02-14T00:00:00-06:00</published><updated>2020-02-14T00:00:00-06:00</updated><id>/2020/02/14/tracery_twitter_bot_tutorial</id><content type="html" xml:base="/2020/02/14/tracery_twitter_bot_tutorial.html">&lt;p&gt;This tutorial teaches the basics of making generative Twitter bots using Tracery and Cheap Bots Done Quick. Originally presented at Lake Forest College Computer Science Club in 2019.
-[No Coding Experience Required!]&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-06-28T11:56:53-05:00</updated><id>/feed.xml</id><entry><title type="html">Tracery Twitter Bots Tutorial</title><link href="/2020/02/14/tracery_twitter_bot_tutorial.html" rel="alternate" type="text/html" title="Tracery Twitter Bots Tutorial" /><published>2020-02-14T00:00:00-06:00</published><updated>2020-02-14T00:00:00-06:00</updated><id>/2020/02/14/tracery_twitter_bot_tutorial</id><content type="html" xml:base="/2020/02/14/tracery_twitter_bot_tutorial.html">&lt;p&gt;This tutorial teaches the basics of making generative Twitter bots using Tracery and Cheap Bots Done Quick. It was originally presented for the Lake Forest College Computer Science Club in 2019. No coding experience required!&lt;/p&gt;
 
 &lt;h3 id=&quot;what-are-twitter-bots&quot;&gt;What are Twitter bots?&lt;/h3&gt;
 &lt;p&gt;Bots on Twitter range from very simple to very complex. They can generate stories, poems, pieces of art, jokes, and more. If you want to learn more about the many types of bots out there, a good resource is &lt;a href=&quot;https://botwiki.org/&quot;&gt;Botwiki&lt;/a&gt;, which collects examples of bots along with tutorials, essays, and other resources. For this tutorial, we’ll focus on bots made with Tracery, a generative tool that’s easy for beginners to pick up. Here are a few examples of bots I’ve made with Tracery:&lt;/p&gt;
@@ -24,15 +23,15 @@
 &lt;p&gt;The &lt;a href=&quot;https://tracery.io/editor&quot;&gt;online Tracery editor&lt;/a&gt; has a helpful visualization tool for keeping track of the parts of your list and how they work together, so I recommend writing your code there rather than in another text editor. Alternately, you can use &lt;a href=&quot;https://atduskgreg.github.io/bother/tracery.html&quot;&gt;this alternate editor&lt;/a&gt;, which may be slightly easier to understand for beginners.&lt;/p&gt;
 
 &lt;h3 id=&quot;tracery-syntax&quot;&gt;Tracery Syntax&lt;/h3&gt;
-&lt;p&gt;Start by coming up with a sentence structure that can be varied with different words (think MadLibs!) and then identify the different word types you’ll need to construct that sentence. For this tutorial, I’ll generate some mystery story plot concepts. My basic sentence structure will be:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;A [detective] investigates a [crime] in [location].&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Start by coming up with a sentence structure that can be varied with different words (think MadLibs!) and then identify the different word types you’ll need to construct that sentence. For this tutorial, I’ll generate some mystery story plot concepts. My basic sentence structure will be: “A [detective] investigates a [crime] in [location].”&lt;/p&gt;
 
 &lt;p&gt;This structure could generate sentences such as ‘A little old lady investigates a murder in a quiet English village.’ or ‘A no-nonsense sheriff investigates a theft in a Western saloon.’ We’ll need to make lists of words to choose from for each of the fill-in-the-blank spots in the original sentence structure. Our lists for this example might be:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;detective: &quot;little old lady&quot;, &quot;no-nonsense sheriff&quot;, &quot;hard-boiled private eye&quot;
-crime: &quot;murder&quot;, &quot;theft&quot;, &quot;kidnapping&quot;
-location: &quot;a quiet English village&quot;, &quot;a Western saloon&quot;, &quot;a space station&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;detective: “little old lady”, “no-nonsense sheriff”, “hard-boiled private eye”
+crime: “murder”, “theft”, “kidnapping”
+location: “a quiet English village”, “a Western saloon”, “a space station”&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;In Tracery, you put the name of the list in quotation marks, followed by a colon, and then put the list items in a set of brackets, with each item within quotation marks. When you want to randomly pick an item from another list, use this notation: &lt;span class=&quot;code-inline&quot;&gt;#list_name#&lt;/span&gt;. Each list should be on a separate line, and should be followed by a comma (except the last one). The first list is your main structure, and it should be named ‘origin’. Take a look at the example code below to see this structure in action.&lt;/p&gt;
 
@@ -46,15 +45,16 @@ location: &quot;a quiet English village&quot;, &quot;a Western saloon&quot;, &qu
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Example output:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;A no-nonsense sheriff investigates a kidnapping in a quiet English village.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+  &lt;div class=&quot;code-inline&quot;&gt;A no-nonsense sheriff investigates a kidnapping in a quiet English village.&lt;/div&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;Important note&lt;/strong&gt;: Tracery is very picky about commas and new lines. If the output isn’t showing up correctly in the editor, go through and triple check that you have a comma after every list except the last one, that each list is on a new line, and that all your quotation marks are in the right places. Writing your code directly in the &lt;a href=&quot;https://tracery.io/editor&quot;&gt;online Tracery editor&lt;/a&gt; helps with this, since the output on the right will update as you type so that you can catch errors as you go.&lt;/p&gt;
 
 &lt;p&gt;You also may have issues when copying and pasting code from other websites. If so, the issue can often be resolved by typing the code out by hand into the editor.&lt;/p&gt;
 
 &lt;h3 id=&quot;saving-variables&quot;&gt;Saving Variables&lt;/h3&gt;
-&lt;p&gt;At this point we’ve covered everything you need to make a very basic bot. But we can add a little more sophistication by saving variables for use later in the sentence, rather than selecting every word randomly. To store a variable, use this notation: &lt;span class=&quot;code-inline&quot;&gt;[variableName:#variableListName#]&lt;/span&gt; at the beginning of the ‘origin’ list. This will not show up in the output, but it will randomly pick an item from variableListName and save it to variableName. Then, when you want to refer to that variable, use #variableName#.&lt;/p&gt;
+&lt;p&gt;At this point we’ve covered everything you need to make a very basic bot (if you’d like to skip ahead and put your bot on Twitter, scroll down to “Hosting Your Bot”). But we can add a little more sophistication by saving variables for use later in the sentence, rather than selecting every word randomly. To store a variable, use this notation: &lt;span class=&quot;code-inline&quot;&gt;[variableName:#variableListName#]&lt;/span&gt; at the beginning of the ‘origin’ list. This will not show up in the output, but it will randomly pick an item from variableListName and save it to variableName. Then, when you want to refer to that variable, use &lt;span class=&quot;code-inline&quot;&gt;#variableName#&lt;/span&gt;.&lt;/p&gt;
 
 &lt;p&gt;Example Code:&lt;/p&gt;
 
@@ -68,18 +68,19 @@ location: &quot;a quiet English village&quot;, &quot;a Western saloon&quot;, &qu
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Example Output:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;A hard-boiled private eye named Terry investigates a theft in a space station. Terry must solve the case before the world ends!&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+  &lt;div class=&quot;code-inline&quot;&gt;A hard-boiled private eye named Terry investigates a theft in a space station. Terry must solve the case before the world ends!&lt;/div&gt;
+&lt;/blockquote&gt;
 
 &lt;h3 id=&quot;modifiers&quot;&gt;Modifiers&lt;/h3&gt;
-&lt;p&gt;You may want to modify certain variables by capitalizing them, putting ‘a’ or ‘an’ in front of them, or making them plural or past tense. You can do that by adding modifiers to the variables; for example, &lt;span class=&quot;code-block&quot;&gt;#name.capitalize#&lt;/span&gt; will pick a random item from the ‘name’ list and capitalize the first letter. You can also create your own modifiers if you know Javascript, but that’s beyond the scope of this tutorial. Here are some built-in modifiers:&lt;/p&gt;
+&lt;p&gt;You may want to modify certain variables by capitalizing them, putting ‘a’ or ‘an’ in front of them, or making them plural or past tense. You can do that by adding modifiers to the variables; for example, &lt;span class=&quot;code-inline&quot;&gt;#name.capitalize#&lt;/span&gt; will pick a random item from the ‘name’ list and capitalize the first letter. You can also create your own modifiers if you know Javascript, but that’s beyond the scope of this tutorial. Here are some built-in modifiers:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;span class=&quot;code-block&quot;&gt;#variable.capitalize#&lt;/span&gt; capitalizes the first letter of variable&lt;/li&gt;
-  &lt;li&gt;&lt;span class=&quot;code-block&quot;&gt;#variable.capitalizeAll#&lt;/span&gt; capitalizes all letters of variable&lt;/li&gt;
-  &lt;li&gt;&lt;span class=&quot;code-block&quot;&gt;#variable.a#&lt;/span&gt; adds an ‘a’ or ‘an’ in front of variable&lt;/li&gt;
-  &lt;li&gt;&lt;span class=&quot;code-block&quot;&gt;#variable.s#&lt;/span&gt; makes variable plural&lt;/li&gt;
-  &lt;li&gt;&lt;span class=&quot;code-block&quot;&gt;#variable.ed#&lt;/span&gt; makes variable past tense&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;code-inline&quot;&gt;#variable.capitalize#&lt;/span&gt; capitalizes the first letter of variable&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;code-inline&quot;&gt;#variable.capitalizeAll#&lt;/span&gt; capitalizes all letters of variable&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;code-inline&quot;&gt;#variable.a#&lt;/span&gt; adds an ‘a’ or ‘an’ in front of variable&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;code-inline&quot;&gt;#variable.s#&lt;/span&gt; makes variable plural&lt;/li&gt;
+  &lt;li&gt;&lt;span class=&quot;code-inline&quot;&gt;#variable.ed#&lt;/span&gt; makes variable past tense&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Note: Some of the modifiers may not work properly with words that have irregular froms of the past tense/plural/etc, or if you are creating a bot in a language other than English.&lt;/p&gt;
@@ -96,8 +97,9 @@ location: &quot;a quiet English village&quot;, &quot;a Western saloon&quot;, &qu
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Example Output:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;A hard-boiled private eye named Terry investigates a theft in a space station. Terry must solve the case before the world ends!&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+  &lt;div class=&quot;code-inline&quot;&gt;A hard-boiled private eye named Terry investigates a theft in a space station. Terry must solve the case before the world ends!&lt;/div&gt;
+&lt;/blockquote&gt;
 
 &lt;h3 id=&quot;varying-structure&quot;&gt;Varying Structure&lt;/h3&gt;
 &lt;p&gt;You may want your bot to tweet several variations on your subject. For instance, in addition to ‘A [detective] named [name] investigates a [crime] in [location]. [name] must solve the case before [event]!’, you might include a structure like ‘When a [crime] occurs in [location], #name# doesn’t want to take the case. But things get personal when #event#.’ We can do that by creating a list of structures for our bot to pick from, the same way we did with lists of words. Think of it as a MadLib with other MadLibs nested inside it.&lt;/p&gt;
@@ -120,7 +122,9 @@ location: &quot;a quiet English village&quot;, &quot;a Western saloon&quot;, &qu
 
 &lt;p&gt;First, &lt;a href=&quot;https://twitter.ocm/i/flow/signup&quot;&gt;create a Twitter account&lt;/a&gt; for your bot to tweet from. Then go to &lt;a href=&quot;https://cheapbotsdonequick.com&quot;&gt;Cheap Bots Done Quick&lt;/a&gt; and log in with that same Twitter account. Copy and paste your Tracery code into the box that says Tracery JSON, and set how often you’d like your bot to tweet. Click save. Congratulations! You’ve made a Twitter bot!&lt;/p&gt;
 
-&lt;p&gt;If you’re interested in looking into making Twitter bots that go beyond what Tracery can do, I recommend visiting &lt;a href=&quot;https://botwiki.org/resources/twitterbots/&quot;&gt;Botwiki&lt;/a&gt; for a masterlist of bot resources and tutorials.&lt;/p&gt;</content><author><name>Emma Juettner</name></author><summary type="html">This tutorial teaches the basics of making generative Twitter bots using Tracery and Cheap Bots Done Quick.</summary></entry><entry><title type="html">Piet Tutorial</title><link href="/2019/04/19/piet_tutorial.html" rel="alternate" type="text/html" title="Piet Tutorial" /><published>2019-04-19T00:00:00-05:00</published><updated>2019-04-19T00:00:00-05:00</updated><id>/2019/04/19/piet_tutorial</id><content type="html" xml:base="/2019/04/19/piet_tutorial.html">&lt;p&gt;Hi all! Today we’ll be looking at an esoteric programming language called Piet. Esoteric programming languages are languages where the concept or aesthetic of the language is usually more important than the actual functionality or usability (some examples of esoteric languages that we’ve done past CS Club tutorials on are &lt;a href=&quot;http://www.lolcode.org/&quot;&gt;LOLCODE&lt;/a&gt; and &lt;a href=&quot;https://esolangs.org/wiki/Brainfuck&quot;&gt;Brainfuck&lt;/a&gt;). No programming experience is required for this tutorial, although it will be easier if you have an understanding of how a stack works.&lt;/p&gt;
+&lt;p&gt;If you’re interested in looking into making Twitter bots that go beyond what Tracery can do, I recommend visiting &lt;a href=&quot;https://botwiki.org/resources/twitterbots/&quot;&gt;Botwiki&lt;/a&gt; for a masterlist of bot resources and tutorials.&lt;/p&gt;</content><author><name>Emma Juettner</name></author><summary type="html">Learn the basics of making generative Twitter bots using Tracery and Cheap Bots Done Quick.</summary></entry><entry><title type="html">Piet Tutorial</title><link href="/2019/04/19/piet_tutorial.html" rel="alternate" type="text/html" title="Piet Tutorial" /><published>2019-04-19T00:00:00-05:00</published><updated>2019-04-19T00:00:00-05:00</updated><id>/2019/04/19/piet_tutorial</id><content type="html" xml:base="/2019/04/19/piet_tutorial.html">&lt;p&gt;(Originally written as a tutorial for the Lake Forest College Computer Science Club.)&lt;/p&gt;
+
+&lt;p&gt;Hi all! Today we’ll be looking at an esoteric programming language called Piet. Esoteric programming languages are languages where the concept or aesthetic of the language is usually more important than the actual functionality or usability (some examples of esoteric languages that we’ve done past CS Club tutorials on are &lt;a href=&quot;http://www.lolcode.org/&quot;&gt;LOLCODE&lt;/a&gt; and &lt;a href=&quot;https://esolangs.org/wiki/Brainfuck&quot;&gt;Brainfuck&lt;/a&gt;). No programming experience is required for this tutorial, although it will be easier if you have an understanding of how a stack works.&lt;/p&gt;
 
 &lt;p&gt;Piet is pretty unique in that the program is an image. Literally, you write code by placing pixels of color on a canvas. It’s inspired by the works of Piet Mondrian, who was famous for his paintings involving blocks of bright color. Today we’ll be learning the basics of Piet!&lt;/p&gt;
 
@@ -138,11 +142,14 @@ location: &quot;a quiet English village&quot;, &quot;a Western saloon&quot;, &qu
 
 &lt;p&gt;I started by listing out the instructions I wanted to perform. Let’s say I want to print “Hi”. These are the ASCII values I want to print out: 72 105 (you can find these values in the ASCII table linked above). So I need to write a series of instructions that will get me those numbers and then print them out as characters (again, there’s more than one way to do this). To start, I’ll write this in pseudocode, not an actual Piet program. Here’s what I came up with:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;push 72
-out(char)
-push 105
-push 1
-pointer&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+  &lt;div class=&quot;code-inline&quot;&gt;
+push 72&lt;br /&gt;
+out(char)&lt;br /&gt;
+push 105&lt;br /&gt;
+push 1&lt;br /&gt;
+pointer&lt;br /&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Now we need to translate those instructions into pixels (or &lt;strong&gt;codels&lt;/strong&gt;, as Piet calls them). The integers are represented by the number of codels in a particular block of color, and the commands are represented by changes of color. Read the first link above for a detailed explanation and list of commands.&lt;/p&gt;
 
@@ -150,4 +157,4 @@ pointer&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;You can see my program in the above image. Try running it for yourself! There are some codels that I just filled in more or less randomly, since they weren’t needed for the program.) See if you can understand how it works, and then try to make a full Hello World program on your own. Make sure to test your program frequently; it’s easy to get mixed up with this language. If you’re having trouble figuring out how the program flows from one codel to the next, start out by making a program that just goes from left to right. If you want more of a challenge, try designing a program that actually forms a picture of something!&lt;/p&gt;
 
-&lt;p&gt;That’s all for today! Have fun experimenting with Piet!&lt;/p&gt;</content><author><name>Emma Juettner</name></author><summary type="html">This tutorial will get you started programming with Piet, an esoteric and visually striking programming language.</summary></entry></feed>
+&lt;p&gt;That’s all for today! Have fun experimenting with Piet!&lt;/p&gt;</content><author><name>Emma Juettner</name></author><summary type="html">Get started programming with Piet, an esoteric and visually striking programming language.</summary></entry></feed>
