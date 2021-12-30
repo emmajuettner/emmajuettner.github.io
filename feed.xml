@@ -1,4 +1,252 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-06T10:02:48-06:00</updated><id>/feed.xml</id><entry><title type="html">Tracery Twitter Bots Tutorial</title><link href="/2020/02/14/tracery_twitter_bot_tutorial.html" rel="alternate" type="text/html" title="Tracery Twitter Bots Tutorial" /><published>2020-02-14T00:00:00-06:00</published><updated>2020-02-14T00:00:00-06:00</updated><id>/2020/02/14/tracery_twitter_bot_tutorial</id><content type="html" xml:base="/2020/02/14/tracery_twitter_bot_tutorial.html">&lt;p&gt;This tutorial teaches the basics of making generative Twitter bots using Tracery and Cheap Bots Done Quick. It was originally presented for the Lake Forest College Computer Science Club in 2019. No coding experience required!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-12-29T23:10:08-06:00</updated><id>/feed.xml</id><entry><title type="html">Genuary 2021 Art</title><link href="/2021/01/31/genuary-2021.html" rel="alternate" type="text/html" title="Genuary 2021 Art" /><published>2021-01-31T00:00:00-06:00</published><updated>2021-01-31T00:00:00-06:00</updated><id>/2021/01/31/genuary-2021</id><content type="html" xml:base="/2021/01/31/genuary-2021.html">&lt;p&gt;&lt;a href=&quot;http://genuary.art/&quot;&gt;Genuary&lt;/a&gt; is a generative art challenge that happens every January. People follow a series of prompts using the coding language of their choice (or occasionally no code at all!), and post the results on Twitter, Instagram, or other social media. It’s a really fun experience and a great way to find other coders and artists who are interested in generative art techniques.&lt;/p&gt;
+
+&lt;p&gt;I participated in Genuary for the first time in 2021, and completed 27 of the 31 &lt;a href=&quot;https://genuary2021.github.io/prompts&quot;&gt;prompts&lt;/a&gt; before running out of steam. Most of my art pieces were created using p5.js and are posted on &lt;a href=&quot;https://openprocessing.org/user/172946/?view=sketches#activity&quot;&gt;OpenProcessing&lt;/a&gt;. This was my first time using p5.js (I had only used Processing in Java in the past) so it was a fun learning exercise. Below are examples of my output for each of the prompts, with a link to the code I wrote for each one.&lt;/p&gt;
+
+&lt;h3 id=&quot;1&quot;&gt;1.&lt;/h3&gt;
+&lt;p&gt;Prompt:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;div class=&quot;code-inline&quot;&gt;// TRIPLE NESTED LOOP&lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day01.png&quot; alt=&quot;A grid of 25 shapes, each one made up of a circle surrounded by a ring of triangles, in various shades of pink and purple that get more vibrant from left to right.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1051711&quot;&gt;Day 1 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2&quot;&gt;2.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Rule 30 (elementary cellular automaton)&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day02.png&quot; alt=&quot;A geometric pattern of white-outlined triangles filling a diamond shape in the center of the canvas, on a background of iridescent-looking dark purple.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1051727&quot;&gt;Day 2 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3&quot;&gt;3.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Make something human.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day03.png&quot; alt=&quot;A very basic drawing of a person with blue hair, an orange shirt, and a purple background. Text above the person reads 'Hello my name is Mundefined'.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The image above is not actually the final output of my code for Day 3’s prompt (to see the final version you can go to the OpenProcessing sketch linked below). It is a screenshot of an error that occurred while I was testing my code. I was trying to generate names by combining parts of other names (e.g. Jim + Timothy = Jimothy), but ended up referencing a variable that hadn’t been defined yet, hence the name “Mundefined”. I think the error is actually a better response to the prompt “Make something human”– after all, what is more human than making a mistake and finding humor in it? 🙂&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1051825&quot;&gt;Day 3 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4&quot;&gt;4.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Small areas of symmetry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day04.png&quot; alt=&quot;Five parallel roads with 5 houses along each road. Each house is a different color and is symmetrical across the vertical axis. The fourth row of houses has sprouted little stick legs and is walking away.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1052152&quot;&gt;Day 4 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;5&quot;&gt;5.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Do some code golf!&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day05.gif&quot; alt=&quot;Small blue dots stream down a dusty blue background, leaving streaks behind them.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The code for the above sketch is 279 characters (with no line breaks) and just barely fits in a tweet. Here it is:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frameRate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createCanvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]}}&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;draw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;noStroke&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#b4e6e625&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#b4f5f5&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ellipse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;510&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1052815&quot;&gt;Day 5 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;6&quot;&gt;6.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Triangle subdivision.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day06.png&quot; alt=&quot;A white-outlined eye on a black background, with white lines subdividing the iris into triangles, quadrilaterals, and pentagons, and bright red lines dividing the pupil into triangle or wedge shapes.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1054022&quot;&gt;Day 6 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;7&quot;&gt;7.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Generate some rules, then follow them by hand on paper.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day07.png&quot; alt=&quot;White text on a black backround that reads: Dragon Instructions Generator (you are the dragon image generator). Draw 3 heads with 2 horns and 1 eye each. Add a thick, four-legged body and dragonfly-like wings. Give your dragon a hoard of hats. Congratulations! You now have a dragon.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And below is my pen-and-paper output for the above instructions:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day07-drawing.jpg&quot; alt=&quot;Drawing of a dragon with 3 heads with 2 horns and 1 eye each, a thick, four-legged body and dragonfly-like wings, with several hats scattered around it.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1058907&quot;&gt;Day 7 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;8&quot;&gt;8.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Curve only.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day08.png&quot; alt=&quot;A background of gauzy mostly-transparent overlapping red shapes, with several curved black lines in the center of the canvas.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1070367&quot;&gt;Day 8 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;9&quot;&gt;9.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Interference patterns.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day09.png&quot; alt=&quot;Two sets of expanding concentric circles, one purple and one pink, which intersect in the middle of a black canvas.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1070409&quot;&gt;Day 9 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;10&quot;&gt;10.&lt;/h3&gt;
+
+&lt;p&gt;Prompt:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;div class=&quot;code-inline&quot;&gt;// TREE&lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day10.gif&quot; alt=&quot;A basic drawing of a tree that starts with a very small mass of green leaves and slowly grows and extends more leaves.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1070438&quot;&gt;Day 10 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;11&quot;&gt;11.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Use something other than a computer as an autonomous process (or use a non-computer random source).&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day11.jpg&quot; alt=&quot;Photo of graph paper with some lines drawn in black marker that connect together at right angles, with some spaces filled in by multiple colors of colored pencil.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For this one I picked some starting points on graph paper and used various D&amp;amp;D dice mod 4 to determine what direction to go in next. Then I chose colors to fill in the spaces by mixing a bag of colored pencils and choosing one randomly.&lt;/p&gt;
+
+&lt;h3 id=&quot;12&quot;&gt;12.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Use an API (e.g. the weather).&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day12.png&quot; alt=&quot;A yellow background with diagonal lime green parallel lines extending from the lower left.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For this one, I used a bot that I had been working on which takes the current Milwaukee temperature, windspeed, etc. and generates an abstract image by choosing colors and shapes that change depending on that data. It’s still a work in progress and I haven’t posted the code for it yet, but you can see it tweeting at &lt;a href=&quot;https://twitter.com/WeatherPicsMKE&quot;&gt;@WeatherPicsMKE&lt;/a&gt; on Twitter.&lt;/p&gt;
+
+&lt;h3 id=&quot;13&quot;&gt;13.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Do not repeat.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day13.png&quot; alt=&quot;A black background with a grid made up of Pacman shapes in different rotations that start as light blue and gradually turn yellow, bright red, dark blue, and then light blue from top to bottom.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1075742&quot;&gt;Day 13 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;14&quot;&gt;14.&lt;/h3&gt;
+
+&lt;p&gt;Prompt:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;div class=&quot;code-inline&quot;&gt;// SUBDIVISION&lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day14.png&quot; alt=&quot;A rectangle in shades of yellow and orange, framed and subdivided by thick black lines to create a geometric stained glass effect.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1075844&quot;&gt;Day 14 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;15&quot;&gt;15.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Let someone else decide the general rules of your piece.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day15.png&quot; alt=&quot;A black background with 5 cubes, each one outlined in white and with a white front-facing face, and brightly colored striped side faces.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I let my sister Sally decide the rules for this piece. She said it had to have shapes with more than five sides. I chose hexagons/cubes (depending on whether you look at them as 2D or 3D shapes).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1077782&quot;&gt;Day 15 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;16&quot;&gt;16.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Circles only&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day16.png&quot; alt=&quot;A grid of concentric circles on a white background, where each of the sets of circles has varying sizes and all use the colors black, white, yellow, red, and blue.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This one is heavily inspired by the works of Piet Mondrian.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1083096&quot;&gt;Day 16 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;17&quot;&gt;17.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Draw a line, pick a new color, move a bit.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day17.png&quot; alt=&quot;Pink and purple lines radiate out from the center of the piece, forming a sort of half-heart shape that is reflected across a diagonal axis, with brighter tones in the center and darker tones towards the edges.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1083642&quot;&gt;Day 17 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;18&quot;&gt;18.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: One process grows, another process prunes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day18.gif&quot; alt=&quot;Pastel dots appear on a white background; first just a few, then more, in random locations around the center.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1083668&quot;&gt;Day 18 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;19&quot;&gt;19.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Increase the randomness along the Y-axis.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day19.png&quot; alt=&quot;A grid where in each square, there is a purple background and a black line. From the top to the bottom of the image, there is more variation in the shade of purple and the line has a stronger curve.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1083729&quot;&gt;Day 19 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;20&quot;&gt;20.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: No loops.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day20.png&quot; alt=&quot;A simple image of a sword with a green handle on a black background.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1083754&quot;&gt;Day 20 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;21&quot;&gt;21.&lt;/h3&gt;
+
+&lt;p&gt;Prompt:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;DRAW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day21.png&quot; alt=&quot;A series of overlapping circles of various rainbow colors that expand out from the center like petals of a flower.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1083772&quot;&gt;Day 21 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;22&quot;&gt;22.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Draw a line. Wrong answers only.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day22.png&quot; alt=&quot;A black x-y axis on a white background, where towards the center the lines become thicker and have curved or spiky edges.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This image is composed of 0 lines and 5000 circles.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1083801&quot;&gt;Day 22 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;23&quot;&gt;23.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: #264653, #2a9d8f, #e9c46a, #f4a261, #e76f51, no gradients. Optionally, you can use a black or white background.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day23.png&quot; alt=&quot;A grid of many small circles, triangles, and squares in shades of orange, yellow, and turquoise.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1083808&quot;&gt;Day 23 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;24&quot;&gt;24.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: 500 lines.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day24.png&quot; alt=&quot;A 10 by 10 grid where each square has a background of various pastel colors arranged in a rainbow gradient, and with 5 black horizontal lines in each square that are staggered to produce a slight optical illusion of movement.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1083826&quot;&gt;Day 24 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;25&quot;&gt;25.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Make a grid of permutations of something.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day25.png&quot; alt=&quot;A black and white grid where each square contains a venn diagram of two semi-transparent circles that are either blue, purple, orange, or yellow.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1083840&quot;&gt;Day 25 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;26&quot;&gt;26.&lt;/h3&gt;
+&lt;p&gt;Prompt: 2D Perspective.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day26.png&quot; alt=&quot;A black background with a white 3D grid and horizon line. In the foreground is a shape made up of two colorfully striped translucent cubes that extend diagonally and form a plaid effect in the center where they overlap.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1083863&quot;&gt;Day 26 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;27&quot;&gt;27.&lt;/h3&gt;
+
+&lt;p&gt;Prompt: Monochrome gradients without lines.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;full-width-blog-img&quot; src=&quot;/assets/images/genuary-2021/day27.png&quot; alt=&quot;A blue and black symmetrical curved gradient formed by horizontal rows of blue circles that reduce in size toward the center left and right of the piece.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openprocessing.org/sketch/1083885&quot;&gt;Day 27 Code&lt;/a&gt;&lt;/p&gt;</content><author><name>Emma Juettner</name></author><summary type="html">A collection of the generative art I made for the #genuary2021 challenge.</summary></entry><entry><title type="html">Tracery Twitter Bots Tutorial</title><link href="/2020/02/14/tracery_twitter_bot_tutorial.html" rel="alternate" type="text/html" title="Tracery Twitter Bots Tutorial" /><published>2020-02-14T00:00:00-06:00</published><updated>2020-02-14T00:00:00-06:00</updated><id>/2020/02/14/tracery_twitter_bot_tutorial</id><content type="html" xml:base="/2020/02/14/tracery_twitter_bot_tutorial.html">&lt;p&gt;This tutorial teaches the basics of making generative Twitter bots using Tracery and Cheap Bots Done Quick. It was originally presented for the Lake Forest College Computer Science Club in 2019. No coding experience required!&lt;/p&gt;
 
 &lt;h3 id=&quot;what-are-twitter-bots&quot;&gt;What are Twitter bots?&lt;/h3&gt;
 &lt;p&gt;Bots on Twitter range from very simple to very complex. They can generate stories, poems, pieces of art, jokes, and more. If you want to learn more about the many types of bots out there, a good resource is &lt;a href=&quot;https://botwiki.org/&quot;&gt;Botwiki&lt;/a&gt;, which collects examples of bots along with tutorials, essays, and other resources. For this tutorial, we’ll focus on bots made with Tracery, a generative tool that’s easy for beginners to pick up. Here are a few examples of bots I’ve made with Tracery:&lt;/p&gt;
