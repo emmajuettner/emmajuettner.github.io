@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xsl/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+
+<channel>
+<title>Emma Juettner - Posts</title>
+<link>https://emmajuettner.com/</link>
+<description>The latest updates from Emma's website</description>
+
+<item>
+<title>A Bad Dream</title>
+<link>https://emmajuettner.com/posts/a-bad-dream/</link>
+<guid>https://emmajuettner.com/posts/a-bad-dream/</guid>
+<description>
+<![CDATA[
+Collage Poem. In which you are interrogated by the first-year members of Congress.
+]]>
+</description>
+<pubDate>2022-05-04T00:00:00Z</pubDate>
+</item>
+<item>
+<title>Goblin Time</title>
+<link>https://emmajuettner.com/posts/goblin-time/</link>
+<guid>https://emmajuettner.com/posts/goblin-time/</guid>
+<description>
+<![CDATA[
+Collage Poem. A request for charitable donations in honor of #goblinWeek.
+]]>
+</description>
+<pubDate>2022-01-23T00:00:00Z</pubDate>
+</item>
+<item>
+<title>You're Invited</title>
+<link>https://emmajuettner.com/posts/youre-invited/</link>
+<guid>https://emmajuettner.com/posts/youre-invited/</guid>
+<description>
+<![CDATA[
+Collage Poem. An invitation to an innovative Secret Santa exchange.
+]]>
+</description>
+<pubDate>2022-01-15T00:00:00Z</pubDate>
+</item>
+<item>
+<title>Alert</title>
+<link>https://emmajuettner.com/posts/alert/</link>
+<guid>https://emmajuettner.com/posts/alert/</guid>
+<description>
+<![CDATA[
+Collage Poem. An important warning and a sales pitch.
+]]>
+</description>
+<pubDate>2021-08-15T00:00:00Z</pubDate>
+</item>
+<item>
+<title>Bears have adjectives</title>
+<link>https://emmajuettner.com/posts/bears-have-adjectives/</link>
+<guid>https://emmajuettner.com/posts/bears-have-adjectives/</guid>
+<description>
+<![CDATA[
+Collage Poem. An important PSA about bears.
+]]>
+</description>
+<pubDate>2020-02-01T00:00:00Z</pubDate>
+</item>
+<item>
+<title>VI. — A counterexample</title>
+<link>https://emmajuettner.com/posts/vi-a-counterexample/</link>
+<guid>https://emmajuettner.com/posts/vi-a-counterexample/</guid>
+<description>
+<![CDATA[
+Collage Poem. Basically sci-fi flash fiction masquerading as a logical proof.
+]]>
+</description>
+<pubDate>2020-02-01T00:00:00Z</pubDate>
+</item>
+<item>
+<title>What makes you feel better</title>
+<link>https://emmajuettner.com/posts/what-makes-you-feel-better/</link>
+<guid>https://emmajuettner.com/posts/what-makes-you-feel-better/</guid>
+<description>
+<![CDATA[
+Collage Poem. A non-linear, non-comprehensive list of Good Things.
+]]>
+</description>
+<pubDate>2020-01-25T00:00:00Z</pubDate>
+</item>
+
+
+</channel>
+</rss>
