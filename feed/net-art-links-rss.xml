@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xsl/net-art-links-rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+
+<channel>
+<title>Emma Juettner - Net Art Links</title>
+<link>https://emmajuettner.com/net-art-links</link>
+<description>Net Art Links Collected by Emma</description>
+
+<item>
+<title>17776</title>
+<link>https://www.sbnation.com/a/17776-football</link>
+<guid>https://www.sbnation.com/a/17776-football</guid>
+<description>
+<![CDATA[
+A speculative fiction story about space probes and American football, by Jon Bois. This is such a cool story, I promise even if you do not know or care about football you will get drawn in. Seriously, click the link and scroll down for a bit and tell me you are not intrigued. <a href="https://www.sbnation.com/a/17776-football">Link</a>.
+]]>
+</description>
+<pubDate>2024-03-03T00:00:00Z</pubDate>
+</item>
+
+
+</channel>
+</rss>
