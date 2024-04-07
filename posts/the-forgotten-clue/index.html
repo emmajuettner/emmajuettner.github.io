@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Forgotten Clue - Emma Juettner</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="/Favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/css/base-styles.css">
+	<link id="style-light" disabled rel="stylesheet" href="/css/light-theme.css" />
+	<link id="style-dark" rel="stylesheet" href="/css/dark-theme.css" />
+	<link id="style-halloween" rel="stylesheet" href="/css/halloween-theme.css" />
+	<script src="/js/theme.js" type="text/javascript"></script>
+	<link rel="me" href="https://social.emmajuettner.com" />
+	<link rel="alternate" type="application/rss+xml" title="Emma Juettner - Posts" href="/feed/rss.xml" />
+	<link rel="alternate" type="application/atom+xml" title="Emma Juettner - Posts" href="/feed/atom.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Emma Juettner - Short Story Recommendations" href="/feed/short-story-recommendations-rss.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Emma Juettner - Net Art Links" href="/feed/net-art-links-rss.xml" />
+</head>
+
+<!-- this website is a work in progress, please pardon any mess :) -->
+
+<body id="the-forgotten-clue">
+
+<div id="container">
+
+<div id="topBar"><button onclick="theme_set('light');theme_save('light');return false;">light mode</button>  
+				<button onclick="theme_set('dark');theme_save('dark');return false;">dark mode</button>
+				<button onclick="theme_set('halloween');theme_save('halloween');return false;">halloween mode</button>
+</div>
+
+<div id="flex">
+
+<aside id="leftSidebar">
+	<h2><a href="/">Emma Juettner</a></h2>
+		<p>You can receive the <a href="/posts">latest posts</a>
+		via my <a href="/feed/rss.xml">RSS</a> or <a href="/feed/atom.xml">Atom</a> feeds.
+	<h2>Pages</h2>
+	<ul>
+		<li><a href="/collage-poetry">Collage poetry</a></li>
+		<li><a href="/generative-art">Generative art</a></li>
+		<li><a href="/net-art-links">Net art links</a></li>
+		<li><a href="/short-story-recommendations">Short story recommendations</a></li>
+		<li><a href="/knitting-notes">Knitting notes</a></li>
+		<li><a href="/fediverse-smallweb-resources">Fediverse & Smallweb Resources</a></li>
+		<li><a href="/contact">Contact info</a></li>
+	</ul>
+</aside>
+
+<main>
+<article>
+<h1><a href="/posts/the-forgotten-clue/">The Forgotten Clue</a></h1>
+<p class="meta">Published on 2024-04-06 by <b>Emma Juettner</b></p>
+<p>
+If you are familiar with <a href="https://nanogenmo.github.io/">NaNoGenMo</a>, you may be thinking:
+"Wasn't the last one of those in November? And isn't it April now (at time of posting)?"
+You would be right, but I never got around to posting about my entry when I first finished it,
+so better late than never! If you're not familiar with NaNoGenMo, it is an annual challenge 
+to write some code that generates a novel (defined as at least 50,000 words) within the month of November. 
+This was my second year participating; my previous attempt was 
+<a href="https://emmajuettner.com/posts/an-expanded-meditation/">An Expanded Meditation</a>.
+</p>
+<p>
+Before I talk about my entry, though, I want to point out a few of the other 2023 entries that I thought
+were particularly interesting or impressive: 
+<ul>
+	<li><a href="https://github.com/NaNoGenMo/2023/issues/32">Whalequest</a>, a reordering of Moby Dick
+	where the least whaley sentences come first and the whaliest sentences are at the end.</li>
+	<li><a href="https://github.com/NaNoGenMo/2023/issues/3">Il nome della zebra</a>, a novel inspired
+	by The Name of the Rose and structured using a logic puzzle.</li>
+	<li><a href="https://github.com/NaNoGenMo/2023/issues/28">The Library of Sir Herbert Quain</a>,
+	a collection of intriguing pamphlets and publications.</li>
+	<li><a href="https://github.com/NaNoGenMo/2023/issues/27">The Bottish Play</a>, a rendition of Macbeth
+	performed entirely by various text-to-speech software. This one might be my favorite, it is truly
+	eerie to hear The TikTok Voice playing the role of a witch in Macbeth.</li>
+</ul>
+</p>
+<p>
+My entry for NaNoGenMo 2023, <a href="http://emmajuettner.com/the-forgotten-clue/">The Forgotten Clue</a>,
+ was inspired by the board game Clue (or Cluedo).
+I wrote some code that approximates the mechanics of Clue (characters take turns
+moving from room to room, and accusing one another of the murder).
+The variation in language comes from a Tracery grammar which draws heavily on phrases
+from <a href="https://www.gutenberg.org/files/48441/48441-h/48441-h.htm">Putnam's Phrase Book</a>,
+a 1919 book which compiles "Over 100 Model Social Letters and 6000 of the World’s Best English Phrases".
+It is a fascinating resource, and if you are interested in generative writing,
+I recommend checking it out as I bet you could do a lot of other really neat stuff with it.
+</p>
+<p>
+The output of my code is a series of scenes that each read something like this:
+</p>
+
+<blockquote>
+<p>With remarkable equanimity, Mr Green stepped into the billiard room.</p>
+<p>The room was empty.</p>
+<p>Mr Green called Miss Scarlett into the billiard room.</p>
+<p>Mr Green said, "Miss Scarlett, the results are everywhere apparent: 
+it was Mrs White in the billiard room with the wrench!"</p>
+<p>Irritably self-conscious, Miss Scarlett answered, "You are certainly not making 
+a reputation for accuracy by some of your statements. Obviously the murder weapon isn't the wrench. 
+The cause of death was not a blunt object."</p>
+<p>"Oh," Mr Green said. "Owing to a foolish error, I was mistaken."</p>
+</blockquote>
+
+<p>
+I had one serious challenge in meeting the 50,000 word count: I couldn't get anywhere near 50,000 words 
+if the detectives played the game skillfully. If they actually made sensible choices about what to suggest, 
+using what they had already learned about which possibilities had been eliminated,
+the novel couldn't get much past 10,000 words before someone would figure out the solution. 
+So as a cheap trick to meet the word count, I gave each detective an 80% chance of forgetting 
+each clue the moment they hear it. Hence the title, "The Forgotten Clue." Despite this handicap,
+one detective does eventually manage to recall enough clues to solve the mystery,
+fortunately after the 50,000 word count has been safely met. 
+I won't spoil the ending for you here, though!
+</p>
+
+<a href="/generative-art">More generative art</a>
+
+</article>
+
+</main>
+
+</div>
+
+<footer id="footer" style="margin-top: 10px;">
+<p>This website was last updated April 7, 2024.</p>
+<p><a href="/colophon">Colophon</a></p>
+</footer>
+</div>
+</body>
+</html>
