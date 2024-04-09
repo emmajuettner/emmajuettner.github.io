@@ -6,11 +6,49 @@
 <title>Emma Juettner - Posts</title>
 <link rel="self" href="https://emmajuettner.com/feed/atom.xml" />
 <subtitle>The latest updates from Emma's website</subtitle>
-<updated>2024-04-06T00:00:00Z</updated>
+<updated>2024-04-09T00:00:00Z</updated>
 <author>
 	<name>Emma Juettner</name>
 </author>
 
+<entry>
+<title>CSS Naked Day</title>
+<link href="https://emmajuettner.com/posts/css-naked-day/" />
+<id>https://emmajuettner.com/posts/css-naked-day/</id>
+<summary>
+<![CDATA[
+Stripping the styles off of my website in celebration of semantic markup.
+]]>
+</summary>
+<content type="html">
+<![CDATA[
+<p>
+If you're reading this on April 9th directly on my website (rather than via RSS),
+this post should be displayed without styles, because it's 
+<a href="https://css-naked-day.github.io/">CSS Naked Day</a>! Well, actually, if you have dark mode
+enabled or if you've previously selected a theme on my site, you might be seeing those
+styles instead (I didn't want to mess with styles if someone had already expressed
+a preference, since it might be unpleasant to be expecting dark mode
+and get hit with the bright white default background). 
+But otherwise, you should be seeing the bare HTML.
+</p>
+<p>
+I've also added a permanent "plain html mode" button
+to the theme picker at the top of my website. I think it's useful to have the option
+of seeing my website without markup anytime because it better reflects how some people will
+interact with the content (via RSS reader, screen reader, etc.) and it gives people
+options for how they want to interact with my site (maybe they use dark mode generally,
+but want to try the plain html just to see what the plain markup looks like).
+The theme picker does rely on Javascript; I'm not entirely happy with this,
+since some people can't or won't use JS, but I don't know
+of another way to allow selection of multiple themes (not just light/dark) on
+a static site. If you do know of a way to do this, though, let me know!
+</p>
+
+]]>
+</content>
+<updated>2024-04-09T00:00:00Z</updated>
+</entry>
 <entry>
 <title>The Forgotten Clue</title>
 <link href="https://emmajuettner.com/posts/the-forgotten-clue/" />
