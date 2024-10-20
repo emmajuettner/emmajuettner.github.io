@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xsl/tech-story-recommendations-rss.xsl" type="text/xsl"?>
+<rss version="2.0">
+
+<channel>
+<title>Emma Juettner - Tech Stories</title>
+<link>https://emmajuettner.com/tech-stories</link>
+<description>Emma's Tech Story Recommendations</description>
+
+<item>
+<title>"The secret inside One Million Checkboxes" by Nolen Royalty</title>
+<link>https://eieio.games/essays/the-secret-in-one-million-checkboxes/</link>
+<guid>https://eieio.games/essays/the-secret-in-one-million-checkboxes/</guid>
+<description>
+<![CDATA[
+In which some teens use checkboxes to draw pictures. 2268 words. <a href="https://eieio.games/essays/the-secret-in-one-million-checkboxes/">Link to story.</a>
+]]>
+</description>
+<pubDate>2024-10-19T00:00:00Z</pubDate>
+</item>
+<item>
+<title>"When you browse Instagram and find former Australian Prime Minister Tony Abbott's passport number" by mangopdf (Alex Hope)</title>
+<link>https://mango.pdf.zone/finding-former-australian-prime-minister-tony-abbotts-passport-number-on-instagram</link>
+<guid>https://mango.pdf.zone/finding-former-australian-prime-minister-tony-abbotts-passport-number-on-instagram</guid>
+<description>
+<![CDATA[
+A very funny cautionary tale about not posting your boarding pass online. 8740 words. <a href="https://mango.pdf.zone/finding-former-australian-prime-minister-tony-abbotts-passport-number-on-instagram">Link to story.</a>
+]]>
+</description>
+<pubDate>2024-10-18T00:00:00Z</pubDate>
+</item>
+<item>
+<title>"PySkyWiFi: completely free, unbelievably stupid wi-fi on long-haul flights" by Robert Heaton</title>
+<link>https://robertheaton.com/pyskywifi/</link>
+<guid>https://robertheaton.com/pyskywifi/</guid>
+<description>
+<![CDATA[
+A brilliantly ridiculous concept: squeezing the entire internet through the name field of an airmiles account. 4360 words. <a href="https://robertheaton.com/pyskywifi/">Link to story.</a>
+]]>
+</description>
+<pubDate>2024-10-17T00:00:00Z</pubDate>
+</item>
+<item>
+<title>"The Wi-Fi only works when it's raining" by Predrag</title>
+<link>https://predr.ag/blog/wifi-only-works-when-its-raining/</link>
+<guid>https://predr.ag/blog/wifi-only-works-when-its-raining/</guid>
+<description>
+<![CDATA[
+An investigation into a mysterious Wi-Fi glitch. 1817 words. <a href="https://predr.ag/blog/wifi-only-works-when-its-raining/">Link to story.</a>
+]]>
+</description>
+<pubDate>2024-10-16T00:00:00Z</pubDate>
+</item>
+
+
+</channel>
+</rss>
