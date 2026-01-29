@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TIL - Email Address Validation - Emma Juettner</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="/Favicon.ico" />
+    <link id="base-styles" rel="stylesheet" type="text/css" href="/css/base-styles.css">
+	<link id="style-light" disabled rel="stylesheet" href="/css/light-theme.css" />
+	<link id="style-dark" rel="stylesheet" href="/css/dark-theme.css" />
+	<link id="style-halloween" rel="stylesheet" href="/css/halloween-theme.css" />
+	<script src="/js/theme.js" type="text/javascript"></script>
+	<link rel="me" href="https://social.emmajuettner.com" />
+	<link rel="alternate" type="application/rss+xml" title="Emma Juettner - Posts" href="/feed/rss.xml" />
+	<link rel="alternate" type="application/atom+xml" title="Emma Juettner - Posts" href="/feed/atom.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Emma Juettner - Short Story Recommendations" href="/feed/short-story-recommendations-rss.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Emma Juettner - Tech Stories" href="/feed/tech-stories-rss.xml" />
+</head>
+
+<!-- this website is a work in progress, please pardon any mess :) -->
+
+<body id="til-email-address-validation">
+
+<div id="container">
+
+<div id="topBar"><button onclick="theme_set('light');theme_save('light');return false;">light mode</button>  
+				<button onclick="theme_set('dark');theme_save('dark');return false;">dark mode</button>
+				<button onclick="theme_set('halloween');theme_save('halloween');return false;">halloween mode</button>
+				<button onclick="theme_set('naked');theme_save('naked');return false;">plain html mode</button>
+</div>
+
+<div id="flex">
+
+<aside id="leftSidebar">
+	<h2><a href="/">Emma Juettner</a></h2>
+		<p>You can receive the <a href="/posts">latest posts</a>
+		via my <a href="/feed/rss.xml">RSS</a> or <a href="/feed/atom.xml">Atom</a> feeds.
+	<h2>Pages</h2>
+	<ul>
+		<li><a href="/collage-poetry">Collage poetry</a></li>
+		<li><a href="/generative-art">Generative art</a></li>
+		<li><a href="/recipes">Recipes</a></li>
+		<li><a href="/short-story-recommendations">Short story recommendations</a></li>
+		<li><a href="/tech-stories">Tech stories</a></li>
+		<li><a href="/knitting-notes">Knitting notes</a></li>
+		<li><a href="/fediverse-smallweb-resources">Fediverse & Smallweb Resources</a></li>
+		<li><a href="/contact">Contact info</a></li>
+	</ul>
+</aside>
+
+<main>
+<article>
+<h1><a href="/posts/til-email-address-validation/">TIL - Email Address Validation</a></h1>
+<p class="meta">Published on 2026-01-28 by <b>Emma Juettner</b></p>
+<p>Meta note: I'm going to start writing some short TIL posts about technical topics that I come across in the course of my work or personal tech tinkering. I was inspired by <a href="https://jvns.ca/til/">Julia Evans' TIL blog</a>. It seems like a great way to record the things I'm learning for later reference, and I'm hoping it will also be a positive thing to have in my portfolio when job-hunting. </p>
+<p>I went down a rabbit hole of email validation discourse today. It's a topic I've encountered before, but usually only in passing, and I wanted to figure out what's considered to be "best practice" here. </p>
+<p>The most authoritative source I found which concisely sums up the situation is <a href="https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html#email-address-validation">OWASP's cheat sheet</a> on email address validation. Some key points: </p>
+<ul>
+<li>Lots of strings that you probably don't want to accept as email addresses are, technically, valid email addresses. </li>
+<li>Just because something is a technically valid email address doesn't mean you can send an email to it. </li>
+<li>The only way to reliably tell if you're going to be able to send an email to an arbitrary address is to... try and send the email! </li>
+<li>They also recommend some basic initial validations which can rule out strings that you probably don't want to accept as email addresses. </li>
+</ul>
+<p>Some interesting discussions I found while researching: </p>
+<ul>
+<li><a href="https://stackoverflow.com/questions/201323/how-can-i-validate-an-email-address-using-a-regular-expression">How can I validate an email address using a regular expression?</a> on Stack Overflow </li>
+<li><a href="https://stackoverflow.com/questions/48055431/can-it-cause-harm-to-validate-email-addresses-with-a-regex">Can it cause harm to validate email addresses with a regex?</a> on Stack Overflow </li>
+<li><a href="https://haacked.com/archive/2007/08/21/i-knew-how-to-validate-an-email-address-until-i.aspx/">I Knew How To Validate An Email Address Until I Read The RFC</a></li>
+</ul>
+<p>That last has an interesting comment by someone named David: "The best compromise I've seen so far is to have it complain if you use a "weird" character, but then offer you a chance to say "no, that <em>really</em> is my email address". That way it catches stupid mistakes, but lets you have the final say as to whether it's valid or not."</p>
+<p>That strikes me as an elegant solution if you don't want to block the rare user with an esoteric email address, but still want to provide some guidance in the more common situation where a user has simply entered a typo. Though of course, then you're back to square one with deciding when to display an "are you sure?" warning vs silently accepting the email, albeit with lower stakes. </p>
+
+</article>
+
+</main>
+
+</div>
+
+<footer id="footer" style="margin-top: 10px;">
+<p>This website was last updated January 29, 2026.</p>
+<p><a href="/colophon">Colophon</a></p>
+</footer>
+</div>
+</body>
+</html>
