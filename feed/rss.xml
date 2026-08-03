@@ -8,6 +8,17 @@
 <description>The latest updates from Emma's website</description>
 
 <item>
+<title>An Environment Variable Gotcha with Docker Entrypoints</title>
+<link>https://emmajuettner.com/posts/environment-variable-gotcha-docker-entrypoints/</link>
+<guid>https://emmajuettner.com/posts/environment-variable-gotcha-docker-entrypoints/</guid>
+<description>
+<![CDATA[
+In which I learn the dangers of using dotted variables with shell form entrypoints.
+]]>
+</description>
+<pubDate>2026-08-02T00:00:00Z</pubDate>
+</item>
+<item>
 <title>The Sims Exercise</title>
 <link>https://emmajuettner.com/posts/sims-exercise/</link>
 <guid>https://emmajuettner.com/posts/sims-exercise/</guid>

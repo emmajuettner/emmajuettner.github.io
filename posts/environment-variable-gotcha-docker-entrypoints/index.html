@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>An Environment Variable Gotcha with Docker Entrypoints - Emma Juettner</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="/Favicon.ico" />
+    <link id="base-styles" rel="stylesheet" type="text/css" href="/css/base-styles.css">
+	<link id="style-light" disabled rel="stylesheet" href="/css/light-theme.css" />
+	<link id="style-dark" rel="stylesheet" href="/css/dark-theme.css" />
+	<link id="style-halloween" rel="stylesheet" href="/css/halloween-theme.css" />
+	<script src="/js/theme.js" type="text/javascript"></script>
+	<link rel="me" href="https://social.emmajuettner.com" />
+	<link rel="alternate" type="application/rss+xml" title="Emma Juettner - Posts" href="/feed/rss.xml" />
+	<link rel="alternate" type="application/atom+xml" title="Emma Juettner - Posts" href="/feed/atom.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Emma Juettner - Short Story Recommendations" href="/feed/short-story-recommendations-rss.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Emma Juettner - Tech Stories" href="/feed/tech-stories-rss.xml" />
+	<link rel="human-json" href="/human.json">
+</head>
+
+<!-- this website is a work in progress, please pardon any mess :) -->
+
+<body id="environment-variable-gotcha-docker-entrypoints">
+
+<div id="container">
+
+<div id="topBar"><button onclick="theme_set('light');theme_save('light');return false;">light mode</button>  
+				<button onclick="theme_set('dark');theme_save('dark');return false;">dark mode</button>
+				<button onclick="theme_set('halloween');theme_save('halloween');return false;">halloween mode</button>
+				<button onclick="theme_set('naked');theme_save('naked');return false;">plain html mode</button>
+</div>
+
+<div id="flex">
+
+<aside id="leftSidebar">
+	<h2><a href="/">Emma Juettner</a></h2>
+		<p>You can receive the <a href="/posts">latest posts</a>
+		via my <a href="/feed/rss.xml">RSS</a> or <a href="/feed/atom.xml">Atom</a> feeds.
+	<h2>Pages</h2>
+	<ul>
+		<li><a href="/collage-poetry">Collage poetry</a></li>
+		<li><a href="/generative-art">Generative art</a></li>
+		<li><a href="/recipes">Recipes</a></li>
+		<li><a href="/short-story-recommendations">Short story recommendations</a></li>
+		<li><a href="/tech-stories">Tech stories</a></li>
+		<li><a href="/knitting-notes">Knitting notes</a></li>
+		<li><a href="/fediverse-smallweb-resources">Fediverse & Smallweb Resources</a></li>
+		<li><a href="/contact">Contact info</a></li>
+	</ul>
+</aside>
+
+<main>
+<article>
+<h1><a href="/posts/environment-variable-gotcha-docker-entrypoints/">An Environment Variable Gotcha with Docker Entrypoints</a></h1>
+<p class="meta">Published on 2026-08-02 by <b>Emma Juettner</b></p>
+<p>I recently encountered an interesting quirk of handling environment variables while using Docker and wanted to record it here in case it proves useful again in the future, either to me or to someone else.</p>
+<p>Let's suppose I have a Java application which prints out the value of two environment variables, like so:</p>
+<pre><code class="java language-java">public class MyApp {
+
+    public static void main(String[] args) {
+        String myDottedVariableValue = System.getenv("my.dotted.variable");
+        System.out.println("my.dotted.variable=" + myDottedVariableValue);
+
+        String myUnderscoredVariableValue = System.getenv("my_underscored_variable");
+        System.out.println("my_underscored_variable=" + myUnderscoredVariableValue);
+    }
+}</code></pre>
+<p>Note that one of my variables has dots in it. This is pretty conventional for system properties in the Java/Spring ecosystem. So let's say I'm running this Java application in a Docker image. What will I see at runtime?</p>
+<p>Let's start by running our class in an Eclipse Temurin Docker base image with an exec form entrypoint:</p>
+<pre><code class="dockerfile language-dockerfile">FROM eclipse-temurin:25
+COPY MyApp.class .
+ENTRYPOINT ["java", "MyApp"]</code></pre>
+<p>When I build and run the image with a value provided for both variables:</p>
+<pre><code class="sh language-sh">docker build --tag 'my_image' -f Dockerfile . &amp;&amp; docker run -e my.dotted.variable=dotted -e my_underscored_variable=underscored my_image:latest</code></pre>
+<p>This is what I get:</p>
+<pre><code class="sh language-sh">my.dotted.variable=dotted
+my_underscored_variable=underscored</code></pre>
+<p>So both variable values are passed along for the Java application to use.</p>
+<p>Now let's change up the Dockerfile to use a shell form entrypoint instead:</p>
+<pre><code class="Dockerfile language-Dockerfile">FROM eclipse-temurin:25
+COPY MyApp.class .
+ENTRYPOINT java MyApp</code></pre>
+<p>Now I'll execute the exact same command to build/run the Docker image again:</p>
+<pre><code class="sh language-sh">docker build --tag 'my_image' -f Dockerfile . &amp;&amp; docker run -e my.dotted.variable=dotted -e my_underscored_variable=underscored my_image:latest</code></pre>
+<p>And here's the output I get at runtime:</p>
+<pre><code class="sh language-sh">my.dotted.variable=null
+my_underscored_variable=underscored</code></pre>
+<p>Suddenly my dotted variable is null! As it turns out, if you run your entrypoint through the shell, the shell may not pass along environment variables that are not named the way it expects. In a POSIX-compliant shell, environment variables are <a href="https://pubs.opengroup.org/onlinepubs/000095399/basedefs/xbd_chap08.html">not supposed to have dots in them</a>. And so our improperly named variable vanishes, while our other variable is passed along just fine.</p>
+</article>
+
+</main>
+
+</div>
+
+<footer id="footer" style="margin-top: 10px;">
+<p>This website was last updated August 3, 2026.</p>
+<p><a href="/colophon">Colophon</a></p>
+</footer>
+</div>
+</body>
+</html>
