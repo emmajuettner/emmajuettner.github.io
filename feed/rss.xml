@@ -8,6 +8,17 @@
 <description>The latest updates from Emma's website</description>
 
 <item>
+<title>Transit Tunes</title>
+<link>https://emmajuettner.com/posts/transit-tunes/</link>
+<guid>https://emmajuettner.com/posts/transit-tunes/</guid>
+<description>
+<![CDATA[
+A playlist of excellent songs about trains and buses.
+]]>
+</description>
+<pubDate>2026-08-04T00:00:00Z</pubDate>
+</item>
+<item>
 <title>An Environment Variable Gotcha with Docker Entrypoints</title>
 <link>https://emmajuettner.com/posts/environment-variable-gotcha-docker-entrypoints/</link>
 <guid>https://emmajuettner.com/posts/environment-variable-gotcha-docker-entrypoints/</guid>
